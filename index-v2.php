@@ -113,6 +113,29 @@
                 <div class="section_detailBox">
                     <p>ncial system. Vistaar works to make available appropriately designed financial services, for this segment alone. This is nation building done right, one entrepreneur at a time. </p>
                 </div>
+
+                <div class="state_data">
+                    <img src="./images/branch_bg.png" class="branch" alt="">
+                    <div class="branch_data">
+                        <h5>KARNATAKA</h5>
+                        <h1>36</h1>
+                        <h6>BRANCHES</h6>
+
+                        <div class="footer_box">
+                            <div class="navigtion">
+                                <div class="left_arraw">
+                                    <img src="" alt="">
+                                </div>
+                                <div class="right_arrow">
+                                    <img src="" alt="">
+                                </div>
+                            </div>
+                            <a href="javascript:;" class="contact_button">
+                                Contact here
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="col-lg-8 col-12">
                 

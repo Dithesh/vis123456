@@ -1,6 +1,6 @@
 .map_box {
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   background-color: #0728dc;
   color: #fff;
@@ -22,3 +22,46 @@
   .map_box .section_detailBox p {
     font-size: 1.6rem;
     font-weight: 300; }
+  .map_box .state_data {
+    position: relative;
+    width: 180px;
+    height: 199px;
+    overflow: hidden; }
+    .map_box .state_data .branch {
+      width: 100%; }
+    .map_box .state_data .branch_data {
+      position: absolute;
+      top: 0;
+      left: 25px;
+      width: 155px;
+      height: 100%;
+      color: #0728dc;
+      font-family: 'Evogria', sans-serif;
+      text-align: center;
+      padding-top: 20px; }
+      .map_box .state_data .branch_data h5 {
+        margin: 0;
+        font-size: 2rem; }
+      .map_box .state_data .branch_data h1 {
+        margin: 0;
+        font-size: 8rem;
+        letter-spacing: -8px;
+        margin-right: 4px;
+        line-height: 1; }
+      .map_box .state_data .branch_data h6 {
+        margin: 0;
+        font-size: 1.9rem; }
+      .map_box .state_data .branch_data .footer_box {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        justify-content: space-between; }
+        .map_box .state_data .branch_data .footer_box .contact_button {
+          color: #fff;
+          display: inline-block;
+          flex: none;
+          padding: 5px 8px;
+          font-size: 1rem;
+          background-color: #ffa722;
+          float: right; }

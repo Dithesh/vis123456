@@ -1,6 +1,6 @@
 .map_box {
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background-color: #0728dc;
     color: #fff;
@@ -27,6 +27,63 @@
         p{
             font-size: 1.6rem;
             font-weight: 300;
+        }
+    }
+
+    & .state_data {
+        position: relative;
+        width: 180px;
+        height: 199px;
+        overflow: hidden;
+
+        & .branch {
+            width: 100%;
+        }
+
+        & .branch_data {
+            position: absolute;
+            top: 0;
+            left: 25px;
+            width: 155px;
+            height: 100%;
+            color: #0728dc;
+            font-family:  'Evogria', sans-serif; 
+            text-align: center;
+            padding-top: 20px;
+            & h5 {
+                margin: 0;
+                font-size: 2rem;
+            }
+
+            & h1 {
+                margin: 0;
+                font-size: 8rem;
+                letter-spacing: -8px;
+                margin-right: 4px;
+                line-height: 1;
+            }
+            & h6 {
+                margin: 0;
+                font-size: 1.9rem;
+            }
+
+            & .footer_box {
+                display: block;
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                justify-content: space-between;
+
+                & .contact_button {
+                    color: #fff;
+                    display: inline-block;
+                    flex: none;
+                    padding: 5px 8px;
+                    font-size: 1rem;
+                    background-color: #ffa722;
+                    float: right;
+                }
+            }
         }
     }
 }
