@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-      "scss": "node-sass --include-path scss scss/style.scss css/style.css -w"
+      "scss": "node-sass --include-path scss scss/style.scss css/style.css -w",
+      "map": "node-sass --include-path scss scss/map_scss.scss css/map_style.css -w"
     },
     "author": "",
     "license": "ISC"

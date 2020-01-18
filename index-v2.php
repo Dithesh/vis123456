@@ -1,5 +1,5 @@
 <?php include('includes/header.php'); ?>
-
+<link rel="stylesheet" href="css/map_style.css" crossorigin="anonymous">
 <div class="home_bannerBox">
     <img src="images/dots_group.png" class="banner_designImage donts1" alt="">
     <img src="images/dots_group.png" class="banner_designImage donts2" alt="">
@@ -102,6 +102,24 @@
         </div>
     </div>
 </div>
+
+<section class="map_box">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-12">
+                <div class="section_titleBox mb-5 pb-5">
+                    <h2>VISTAAR PRESENCE</h2>
+                </div>
+                <div class="section_detailBox">
+                    <p>ncial system. Vistaar works to make available appropriately designed financial services, for this segment alone. This is nation building done right, one entrepreneur at a time. </p>
+                </div>
+            </div>
+            <div class="col-lg-8 col-12">
+                
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php include('includes/footer.php'); ?>
     
