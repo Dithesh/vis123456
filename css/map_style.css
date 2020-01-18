@@ -5,6 +5,10 @@
   background-color: #0728dc;
   color: #fff;
   padding: 90px 0px; }
+  .map_box .map_blue_dots {
+    position: absolute;
+    opacity: 0.8;
+    width: 100px; }
   .map_box .section_titleBox h2 {
     font-family: 'Evogria', sans-serif;
     font-size: 5rem;
@@ -26,7 +30,8 @@
     position: relative;
     width: 180px;
     height: 199px;
-    overflow: hidden; }
+    overflow: hidden;
+    margin-top: 30px; }
     .map_box .state_data .branch {
       width: 100%; }
     .map_box .state_data .branch_data {
@@ -57,6 +62,15 @@
         bottom: 0;
         width: 100%;
         justify-content: space-between; }
+        .map_box .state_data .branch_data .footer_box .navigtion_ctrl {
+          display: inline-flex;
+          float: left;
+          margin-left: 5px; }
+          .map_box .state_data .branch_data .footer_box .navigtion_ctrl img {
+            display: inline-block;
+            padding: 5px 3px;
+            cursor: pointer;
+            width: 15px; }
         .map_box .state_data .branch_data .footer_box .contact_button {
           color: #fff;
           display: inline-block;

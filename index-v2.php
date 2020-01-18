@@ -105,9 +105,10 @@
 
 <section class="map_box">
     <div class="container">
+    <img src="./images/blue_dots_group2.png" class="map_blue_dots" alt="">
         <div class="row">
             <div class="col-lg-4 col-12">
-                <div class="section_titleBox mb-5 pb-5">
+                <div class="section_titleBox mb-5 pb-3">
                     <h2>VISTAAR PRESENCE</h2>
                 </div>
                 <div class="section_detailBox">
@@ -122,12 +123,12 @@
                         <h6>BRANCHES</h6>
 
                         <div class="footer_box">
-                            <div class="navigtion">
+                            <div class="navigtion_ctrl">
                                 <div class="left_arraw">
-                                    <img src="" alt="">
+                                    <img src="./images/arrow_left.png" alt="">
                                 </div>
                                 <div class="right_arrow">
-                                    <img src="" alt="">
+                                    <img src="./images/arrow_right.png" alt="">
                                 </div>
                             </div>
                             <a href="javascript:;" class="contact_button">

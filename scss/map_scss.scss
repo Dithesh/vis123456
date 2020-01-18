@@ -5,6 +5,13 @@
     background-color: #0728dc;
     color: #fff;
     padding: 90px 0px;
+
+    & .map_blue_dots {
+        position: absolute;
+        opacity: 0.8;
+        width: 100px;
+    }
+
     & .section_titleBox {
         h2{
             font-family: 'Evogria', sans-serif;
@@ -35,6 +42,7 @@
         width: 180px;
         height: 199px;
         overflow: hidden;
+        margin-top: 30px;
 
         & .branch {
             width: 100%;
@@ -73,6 +81,19 @@
                 bottom: 0;
                 width: 100%;
                 justify-content: space-between;
+
+                & .navigtion_ctrl {
+                    display: inline-flex;
+                    float: left;
+                    margin-left: 5px;
+
+                    & img {
+                        display: inline-block;
+                        padding: 5px 3px;
+                        cursor: pointer;
+                        width: 15px;
+                    }
+                }
 
                 & .contact_button {
                     color: #fff;
