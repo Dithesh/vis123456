@@ -96,7 +96,19 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-12">
-                    
+                    <div class="circle_animateBox">
+                        <div class="svg_circleBpx" data-note="1716">
+                            <div class="circle">
+                                <svg width="84" height="84" class="circle__svg">
+                                    <circle cx="41" cy="41" r="38" class="circle__progress circle__progress--path"></circle>
+                                    <circle cx="41" cy="41" r="38" class="circle__progress circle__progress--fill"></circle>
+                                </svg>
+                                <div class="percent">
+                                    <span class="percent__dec">0000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
