@@ -1,0 +1,321 @@
+@font-face {
+    font-family: 'Evogria';
+    font-weight: 400;
+    src: url("fonts/Evogria.otf") format('otf');
+}
+@font-face {
+    font-family: 'Gotham';
+    font-weight: 900;
+    src: url("fonts/Gotham-Ultra.otf") format('otf');
+}
+@font-face {
+    font-family: 'Gotham';
+    font-weight: 800;
+    src: url("fonts/Gotham-Black.otf") format('otf');
+}
+@font-face {
+    font-family: 'Gotham';
+    font-weight: 700;
+    src: url("fonts/gothambold.otf") format('otf');
+}
+@font-face {
+    font-family: 'Gotham';
+    font-weight: 500;
+    src: url("fonts/GothamMedium.otf") format('otf');
+}
+@font-face {
+    font-family: 'Gotham';
+    font-weight: 400;
+    src: url("fonts/GothamBook.otf") format('otf');
+}
+@font-face {
+    font-family: 'Gotham';
+    font-weight: 300;
+    src: url("fonts/GothamLight.otf") format('otf');
+}
+@font-face {
+    font-family: 'Gotham';
+    font-weight: 200;
+    src: url("fonts/Gotham-Thin.otf") format('otf');
+}
+@font-face {
+    font-family: 'Gotham';
+    font-weight: 100;
+    src: url("fonts/Gotham-XLight.otf") format('otf');
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    font-family: 'Gotham', sans-serif;
+}
+// header css ----------------------
+
+.header_menuOuter{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    .header_nav{
+        display: flex;
+        align-items: center;
+        .nav_brandBox{
+            width: 200px;
+        }
+    }
+    .nav_menuBar{
+        ul{
+            display: flex;
+            margin-bottom: 0px;
+            li{
+                margin-left: 40px;
+                a{
+                    font-size: 1.3rem;
+                    color: #fff;
+                    text-decoration: none;
+                }
+                &:first-child{
+                    margin-left: 0px;
+                }
+            }
+        }
+    }
+    .social_menuBox{
+        a{
+            display: inline-block;
+            margin-left: 20px;
+            img{
+                height: 13px;
+            }
+        }
+    }
+}
+
+// end of header css----------------
+
+.home_bannerBox{
+    background-image: url(./../images/Vistaar_Website-Banner-4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    color: #fff;
+    .banner_designImage{
+        position: absolute;
+        z-index: 1;
+        &.donts1{
+            left: 8%;
+            top: 25%;
+            opacity: 0.5;
+            width: 100px;
+        }
+        &.donts2{
+            bottom: 20%;
+            right: 35%;
+            opacity: 0.5;
+            width: 100px;
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+        }
+        &.circle1{
+            right: 15%;
+            top: 25%;
+            width: 20px;
+        }
+        &.circle2{
+            bottom: 1%;
+            left: 10%;
+            width: 20px;
+        }
+        &.arrow1{
+            bottom: 27%;
+            left: 38%;
+            width: 30px;
+        }
+    }
+    .container{
+        min-height: 100vh;
+        padding-bottom: 150px;
+        position: relative;
+    }
+    .top_middleLine{
+        width: 3px;
+        height: 120px;
+        margin-bottom: 50px;
+        position: relative;
+        &:after{
+            content: "";
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #fff;
+        }
+    }
+    .bottom_middleLine{
+        width: 3px;
+        height: 80px;
+        margin-top: 10px;
+        position: relative;
+        &:after{
+            content: "";
+            left: 0;
+            top: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: #fff;
+        }
+    }
+    .banner_textBox{
+        h3{
+            font-size: 4rem;
+            margin-bottom: 0px;
+            font-family: 'Evogria', sans-serif;
+        }
+    }
+    .tag_lineBox{
+        width: 150px;
+        margin: 10px auto;
+    }
+    .banner_menuBoxRow{
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 25px;
+        margin-top: 30px;
+        z-index: 2;
+        .bannerMenu_box{
+            padding: 5px;
+            border-radius: 10px;
+            background-image: url('../images/border_image.png');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            .bannerMenu_inner{
+                height: 110px;
+                padding: 10px;
+                display: block;
+                border-radius: 10px;
+                background-image: linear-gradient(50deg, rgba(0, 82, 237, 0.3), rgba(0, 0, 0, 0.3)), url('../images/graphic_small.png');
+                background-repeat: no-repeat;
+                background-size: cover, cover;
+                background-position: center, 40px bottom;
+                position: relative;
+                display: flex;
+                line-height: 1.2;
+                align-items: center;
+                justify-content: center;
+                color: #fff;
+                font-size: 1.6rem;
+                font-weight: 500;
+                text-decoration: none;
+                text-align: center;
+                span{
+                    position: relative;
+                    display: inline-block;
+                    &:after{
+                        content: "";
+                        position: absolute;
+                        bottom: -10px;
+                        height: 2px;
+                        background-color: #fff;
+                        width: 20px;
+                        left: 50%;
+                        margin-left: -10px;
+                    }
+                }
+                img{
+                    position: absolute;
+                    top: 7px;
+                    right: 7px;
+                    width: 6px;
+                }
+            }
+        }
+    }
+}
+.portfolio_section{
+    background-color: #1d56dc;
+    background-image: url('../images/graphic_design3.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+    padding: 80px 0px;
+    min-height: 100vh;
+    color: #fff;
+    position: relative;
+    .section_graphicImage{
+        position: absolute;
+        &.blue_dots{
+            top: 5%;
+            left: 20%;
+            width: 250px;
+        }
+        &.arrow_right{
+            top: 16%;
+            left: 50%;
+            width: 30px;
+        }
+        &.lines_btm{
+            left: 0px;
+            bottom: 0px;
+            width: 300px;
+        }
+        &.circle_img{
+            right: 10%;
+            bottom: 15%;
+            width: 20px;
+        }
+    }
+    &:after{
+        content: "";
+        position: absolute;
+        width: 100%;
+        bottom: 20px;
+        left: 0;
+        height: 1px;
+        background-color: #fff;
+        opacity: 0.3;
+        z-index: 1;
+    }
+    .portfolio_inner{
+        padding: 0px 80px;
+        .section_titleBox{
+            h2{
+                font-family: 'Evogria', sans-serif;
+                font-size: 5rem;
+                margin-bottom: 10px;
+                position: relative;
+                display: inline-block;
+                &:before{
+                    content: "";
+                    position: absolute;
+                    width: 100px;
+                    height: 8px;
+                    background-color: #ffa722;
+                    left: 0;
+                    bottom: -20px;
+                }
+            }
+        }
+        .section_detailBox{
+            h5{
+                font-size: 2.6rem;
+                margin-bottom: 5px;
+                font-weight: 500;
+            }
+            p{
+                font-size: 1.6rem;
+                font-weight: 300;
+            }
+        }
+    }
+    
+    
+}

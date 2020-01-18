@@ -1,0 +1,11 @@
+{
+    "name": "vistaar",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "scss": "node-sass --include-path scss scss/style.scss css/style.css -w"
+    },
+    "author": "",
+    "license": "ISC"
+  }
