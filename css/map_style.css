@@ -8,7 +8,15 @@
   .map_box .map_blue_dots {
     position: absolute;
     opacity: 0.8;
-    width: 100px; }
+    width: 228px;
+    margin-top: -12px;
+    margin-left: -23px; }
+  .map_box .map_line_patrn {
+    position: absolute;
+    opacity: 0.8;
+    width: 50%;
+    bottom: 0;
+    left: 0; }
   .map_box .section_titleBox h2 {
     font-family: 'Evogria', sans-serif;
     font-size: 5rem;
@@ -79,3 +87,21 @@
           font-size: 1rem;
           background-color: #ffa722;
           float: right; }
+  .map_box .indian_map {
+    display: inline-flex;
+    background-image: url(./../images/map-shadow.png);
+    background-size: cover;
+    background-position: -20px center;
+    background-repeat: no-repeat; }
+    .map_box .indian_map .area_covered {
+      fill: #cbffff;
+      stroke: #49D2FF;
+      stroke-width: 0.2; }
+    .map_box .indian_map .area_blank {
+      fill: #ffffff;
+      stroke: #49D2FF;
+      stroke-width: 0.2; }
+    .map_box .indian_map .area_selected {
+      fill: #ffff54;
+      stroke: #49D2FF;
+      stroke-width: 0.2; }

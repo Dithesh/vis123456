@@ -6,10 +6,21 @@
     color: #fff;
     padding: 90px 0px;
 
-    & .map_blue_dots {
+    & .map_blue_dots {    
         position: absolute;
         opacity: 0.8;
-        width: 100px;
+        width: 228px;
+        margin-top: -12px;
+        margin-left: -23px;
+    }
+
+
+    & .map_line_patrn {
+        position: absolute;
+        opacity: 0.8;
+        width: 50%;
+        bottom: 0;
+        left: 0;
     }
 
     & .section_titleBox {
@@ -105,6 +116,32 @@
                     float: right;
                 }
             }
+        }
+    }
+
+    & .indian_map {
+        display: inline-flex;
+        background-image: url(./../images/map-shadow.png);
+        background-size: cover;
+        background-position: -20px center;
+        background-repeat: no-repeat;
+
+        & .area_covered {
+            fill: #cbffff;
+            stroke:#49D2FF;
+            stroke-width:0.2;
+        }
+
+        & .area_blank {
+            fill: #ffffff;
+            stroke:#49D2FF;
+            stroke-width:0.2;
+        }
+
+        & .area_selected {
+            fill: #ffff54;
+            stroke:#49D2FF;
+            stroke-width:0.2;
         }
     }
 }
