@@ -49,6 +49,26 @@ html, body {
   font-size: 10px;
   font-family: 'Gotham', sans-serif; }
 
+@media (min-width: 576px) {
+  .container {
+    width: 1000px;
+    max-width: 100%; } }
+
+@media (min-width: 768px) {
+  .container {
+    width: 1000px;
+    max-width: 100%; } }
+
+@media (min-width: 992px) {
+  .container {
+    width: 1000px;
+    max-width: 100%; } }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+    max-width: 100%; } }
+
 .header_menuOuter {
   position: fixed;
   left: 0;
@@ -153,13 +173,14 @@ html, body {
     margin: 10px auto; }
   .home_bannerBox .banner_menuBoxRow {
     position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 25px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
     margin-top: 30px;
     z-index: 2; }
     .home_bannerBox .banner_menuBoxRow .bannerMenu_box {
       padding: 5px;
+      margin-bottom: 10px;
       border-radius: 10px;
       background-image: url("../images/border_image.png");
       background-size: 100% 100%;
@@ -232,15 +253,18 @@ html, body {
   .portfolio_section:after {
     content: "";
     position: absolute;
-    width: 100%;
+    width: 76%;
     bottom: 20px;
-    left: 0;
+    right: 0;
     height: 1px;
     background-color: #fff;
     opacity: 0.3;
     z-index: 1; }
   .portfolio_section .portfolio_inner {
-    padding: 0px 80px; }
+    width: 1020px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
     .portfolio_section .portfolio_inner .section_titleBox h2 {
       font-family: 'Evogria', sans-serif;
       font-size: 5rem;
@@ -262,3 +286,149 @@ html, body {
     .portfolio_section .portfolio_inner .section_detailBox p {
       font-size: 1.6rem;
       font-weight: 300; }
+
+.footerTop_section {
+  padding: 20px 0px 30px;
+  background-color: #f2f2f2; }
+  .footerTop_section .testimonial_boxOuter {
+    width: 1020px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; }
+    .footerTop_section .testimonial_boxOuter .topShadow {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      height: 10%;
+      width: 900px;
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      box-shadow: 0px -16px 18px 0px rgba(0, 0, 0, 0.4);
+      z-index: 0; }
+    .footerTop_section .testimonial_boxOuter .bottomShadow {
+      bottom: 0;
+      height: 10%;
+      left: 50%;
+      width: 900px;
+      position: absolute;
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+      box-shadow: 0px 16px 18px 0px rgba(0, 0, 0, 0.4);
+      z-index: 0; }
+    .footerTop_section .testimonial_boxOuter .testimonial_inner {
+      background-color: #fff;
+      position: relative;
+      padding: 20px;
+      z-index: 1;
+      padding-right: 200px;
+      margin-bottom: 30px; }
+      .footerTop_section .testimonial_boxOuter .testimonial_inner h3 {
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: #215bdc;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        z-index: 2; }
+      .footerTop_section .testimonial_boxOuter .testimonial_inner .testimonials h2 {
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: #215bdc;
+        position: relative; }
+        .footerTop_section .testimonial_boxOuter .testimonial_inner .testimonials h2:after {
+          content: "";
+          width: 30px;
+          height: 2px;
+          background-color: #215bdc;
+          position: absolute;
+          bottom: -10px;
+          left: 0; }
+      .footerTop_section .testimonial_boxOuter .testimonial_inner .testimonials p {
+        font-size: 1.3rem;
+        font-weight: 500;
+        color: #929292;
+        margin-bottom: 15px; }
+      .footerTop_section .testimonial_boxOuter .testimonial_inner .testimonials a {
+        display: inline-flex;
+        text-decoration: none;
+        color: #215bdc;
+        align-items: center;
+        font-weight: 500;
+        font-size: 1.3rem; }
+        .footerTop_section .testimonial_boxOuter .testimonial_inner .testimonials a img {
+          width: 8px;
+          margin-left: 10px; }
+      .footerTop_section .testimonial_boxOuter .testimonial_inner .owl-carousel {
+        position: static; }
+        .footerTop_section .testimonial_boxOuter .testimonial_inner .owl-carousel .owl-dots {
+          margin-top: 0px;
+          position: absolute;
+          right: 20px;
+          bottom: 10px; }
+          .footerTop_section .testimonial_boxOuter .testimonial_inner .owl-carousel .owl-dots .owl-dot span {
+            margin: 8px 3px;
+            width: 10px;
+            height: 10px;
+            border-radius: 0px;
+            border: 1px solid #c6c6c6;
+            background-color: transparent; }
+          .footerTop_section .testimonial_boxOuter .testimonial_inner .owl-carousel .owl-dots .owl-dot.active span {
+            background-color: #c6c6c6; }
+  .footerTop_section .guidline_box {
+    margin-bottom: 30px; }
+    .footerTop_section .guidline_box a {
+      font-size: 2rem;
+      font-weight: 600;
+      text-decoration: none;
+      color: #215bdc; }
+      .footerTop_section .guidline_box a img {
+        margin-left: 10px; }
+
+.footerMenuBox h5 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #929292;
+  margin-bottom: 3px; }
+
+.footerMenuBox ul {
+  margin-bottom: 0px; }
+  .footerMenuBox ul li {
+    margin-bottom: 3px; }
+    .footerMenuBox ul li a {
+      font-weight: 300;
+      color: #929292;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 1.3rem; }
+
+.footerSection {
+  background-color: #fff;
+  padding: 30px 0px 30px; }
+  .footerSection h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #929292;
+    margin-bottom: 10px; }
+  .footerSection p {
+    font-weight: 400;
+    color: #929292;
+    font-size: 1.3rem;
+    margin-bottom: 8px; }
+  .footerSection hr {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  .footerSection .copy_text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between; }
+    .footerSection .copy_text span {
+      display: inline-block;
+      font-weight: 400;
+      color: #929292;
+      font-size: 1.3rem; }

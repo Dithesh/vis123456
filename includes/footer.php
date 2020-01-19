@@ -7,7 +7,7 @@
     <!-- <script src="assets/bootstrap/bootstrap.min.js" crossorigin="anonymous"></script>
     <script src="assets/bootstrap/bootstrap.bundle.min.js" crossorigin="anonymous"></script> -->
     <!-- owl slider -->
-    <!-- <script src="assets/owl-carousel/owl.carousel.js" crossorigin="anonymous"></script> -->
+    <script src="assets/owl-carousel/owl.carousel.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/script.js"></script>
 </body>
 

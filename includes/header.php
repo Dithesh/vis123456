@@ -19,8 +19,8 @@
     <link rel="stylesheet" href="assets/bootstrap/bootstrap-reboot.min.css" crossorigin="anonymous">
 
     <!-- owl slider -->
-    <!-- <link rel="stylesheet" href="assets/owl-carousel/owl.carousel.css" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/owl-carousel/owl.theme.default.css" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="assets/owl-carousel/owl.carousel.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/owl-carousel/owl.theme.default.css" crossorigin="anonymous">
 
     <!-- <link rel="stylesheet" type="text/css" href="css/animate.css"> -->
     <!-- aos animation -->
