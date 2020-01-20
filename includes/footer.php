@@ -1,3 +1,5 @@
+</span>
+</span>
 <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script type="text/javascript" src="js/jquery.js"></script>
@@ -12,6 +14,7 @@
     <script src="js/vue.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/wow.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
+    <script src="js/map.js"></script>
 </body>
 
 </html>

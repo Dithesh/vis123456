@@ -97,7 +97,20 @@
                 </div>
                 <div class="col-lg-6 col-12">
                     <div class="circle_animateBox">
-                        
+                    <svg height="200" width="200">
+                        <circle class="circle" cx="100" cy="100" r="95" stroke="#231f20" stroke-width="10" fill-opacity="0" />
+                    </svg>
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 300 300" preserveAspectRatio="none" style="width:300; height:300; top:0; left:0;">
+                        <defs>
+                            <linearGradient id="circle_bg_1" x1="0%" y1="0%" x2="0%" y2="100%">
+                                <stop offset="0%" stop-color="#00bc9b" />
+                                <stop offset="100%" stop-color="#000000" />
+                            </linearGradient> 
+                        </defs>
+                        <circle cx="100" cy="100" r="57" id="green-halo" fill="none" stroke="url(#circle_bg_1)" stroke-width="15" stroke-dasharray="0,20000" transform="rotate(-90,100,100)" />
+                        <text id="myTimer" text-anchor="middle" x="100" y="110" style="font-size: 36px;" >0%</text>
+                    </svg> -->
+                    
                     </div>
                 </div>
             </div>
@@ -105,7 +118,7 @@
     </div>
 </section>
 
-<section class="map_box" id="map_app">
+<section class="map_box">
     <div class="container">
     <img src="./images/blue_dots_group2.png" class="map_blue_dots" alt="">
     <img src="./images/line_patrn.png" class="map_line_patrn" alt="">
@@ -324,7 +337,6 @@
     </div>
 </section>
 <?php include('includes/footer.php'); ?>
-<script src="js/map.js"></script>
     
     
 

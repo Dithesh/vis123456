@@ -1,47 +1,47 @@
 @font-face {
     font-family: 'Evogria';
     font-weight: 400;
-    src: url("fonts/Evogria.otf") format('otf');
+    src: url("../fonts/Evogria.otf") format('otf');
 }
 @font-face {
     font-family: 'Gotham';
     font-weight: 900;
-    src: url("fonts/Gotham-Ultra.otf") format('otf');
+    src: url("../fonts/Gotham-Ultra.otf") format('otf');
 }
 @font-face {
     font-family: 'Gotham';
     font-weight: 800;
-    src: url("fonts/Gotham-Black.otf") format('otf');
+    src: url("../fonts/Gotham-Black.otf") format('otf');
 }
 @font-face {
     font-family: 'Gotham';
     font-weight: 700;
-    src: url("fonts/gothambold.otf") format('otf');
+    src: url("../fonts/gothambold.otf") format('otf');
 }
 @font-face {
     font-family: 'Gotham';
     font-weight: 500;
-    src: url("fonts/GothamMedium.otf") format('otf');
+    src: url("../fonts/GothamMedium.otf") format('otf');
 }
 @font-face {
     font-family: 'Gotham';
     font-weight: 400;
-    src: url("fonts/GothamBook.otf") format('otf');
+    src: url("../fonts/GothamBook.otf") format('otf');
 }
 @font-face {
     font-family: 'Gotham';
     font-weight: 300;
-    src: url("fonts/GothamLight.otf") format('otf');
+    src: url("../fonts/GothamLight.otf") format('otf');
 }
 @font-face {
     font-family: 'Gotham';
     font-weight: 200;
-    src: url("fonts/Gotham-Thin.otf") format('otf');
+    src: url("../fonts/Gotham-Thin.otf") format('otf');
 }
 @font-face {
     font-family: 'Gotham';
     font-weight: 100;
-    src: url("fonts/Gotham-XLight.otf") format('otf');
+    src: url("../fonts/Gotham-XLight.otf") format('otf');
 }
 
 html,body{
@@ -80,6 +80,155 @@ html,body{
 .no_visible{
     visibility: hidden;
 }
+
+// slider css
+.full_slider{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: #fff;
+    opacity: 0;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    &.slide1{
+        background-image: url(./../images/Vistaar_Website-Banner-1.png);
+        z-index: 1051;
+    }
+    &.slide2{
+        background-image: url(./../images/Vistaar_Website-Banner-2.png);
+        z-index: 1052;
+    }
+    &.slide3{
+        background-color: #0728dc;
+        z-index: 1053;
+    }
+    .text_box{
+        color: #fff;
+        line-height: 1;
+        display: inline-block;
+        position: relative;
+        top: 40%;
+        left: 10%;
+        
+        .quotesImg{
+            position: absolute;
+            width: 15px;
+            opacity: 0;
+            animation-delay: 2s;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+            &.left{
+                top: -8px;
+                left: -24px;
+            }
+            &.right{
+                right: -13px;
+                top: 31%;
+            }
+        }
+        h3{
+            font-size: 2.2rem;
+            opacity: 0;
+            font-family: 'Evogria', sans-serif;
+            animation-delay: 1.8s;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+        }
+        h1{
+            font-size:4rem;
+            opacity: 0;
+            font-family: 'Evogria', sans-serif;
+            animation-delay: 1.4s;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+        }
+    }
+    .bg_transText{
+        line-height: 1;
+        position: absolute;
+        left: 50%;
+        top:50%;
+        opacity: 0;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+        animation-delay: 1.4s;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        h1{
+            font-size:10rem;
+            line-height: 1;
+            color: rgba(#ffffff,0.2);
+            font-family: 'Evogria', sans-serif;
+        }
+    }
+    .banner_designImage{
+        position: absolute;
+        z-index: 1;
+        &.textImgBox{
+            left: 50%;
+            top:50%;
+            width: 200px;
+            opacity: 0;
+            transform: translate(-50%, -50%);
+            animation-delay: 1.4s;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+        }
+        &.donts1{
+            left: 8%;
+            top: 25%;
+            opacity: 0.5;
+            width: 100px;
+            animation-name: dotsAnimation;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        &.donts2{
+            bottom: 20%;
+            right: 35%;
+            opacity: 0.5;
+            width: 100px;
+            -webkit-transform: rotate(90deg);
+            -moz-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+            animation-name: dotsAnimation;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        &.circle1{
+            right: 15%;
+            top: 25%;
+            width: 20px;
+            animation-name: circleAnimate;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            
+        }
+        &.circle2{
+            bottom: 1%;
+            left: 10%;
+            width: 20px;
+            animation-name: circleAnimate;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        &.arrow1{
+            bottom: 27%;
+            left: 38%;
+            width: 30px;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+    }
+}
 // header css ----------------------
 
 .header_menuOuter{
@@ -104,13 +253,27 @@ html,body{
             transition: .3s ease-in-out;
         }
     }
-    &.header_fixed{
+    &:before{
+        position: absolute;
+        content: "";
+        width: 0px;
+        top:0px;
+        height: 100%;
+        left: 10%;
+        border-radius: 40px;
+        z-index: -1;
         background-color: #0728dc;
+        -webkit-transition: .4s ease-in-out;
+        -moz-transition: .4s ease-in-out;
+        -ms-transition: .4s ease-in-out;
+        transition: .4s ease-in-out;
+    }
+    &.header_fixed{
         box-shadow: 2px 0px 10px rgba(#000000,0.2);
-        .header_nav{
-            .nav_brandBox{
-                width: 150px;
-            }
+        &:before{
+            width: 100%;
+            left: 0px;
+            border-radius: 0px;
         }
     }
     .nav_menuBar{
@@ -741,5 +904,63 @@ html,body{
   
     to {
         height: 100%;
+    }
+  }
+
+//   animations css
+@keyframes dotsAnimation {
+    from{
+        transform: translate3d(0,0, 0);
+    }
+    30% {
+      transform: translate3d(-10px, 10px, -10px);
+    }
+  
+    40% {
+        transform: translate3d(10px, -10px, 10px);
+    }
+    50% {
+        transform: translate3d(10px, 10px, 10px);
+    }
+    to{
+        transform: translate3d(0,0, 0);
+    }
+  }
+  @keyframes circleAnimate {
+    from{
+        transform: translate3d(0,0, 0);
+    }
+    30% {
+      transform: translate3d(-10px, 10px, -10px);
+    }
+  
+    40% {
+        transform: translate3d(10px, -10px, 10px);
+    }
+    50% {
+        transform: translate3d(10px, 10px, 10px);
+    }
+    to{
+        transform: translate3d(0,0, 0);
+    }
+  }
+  
+  [v-cloak]{
+      display: none;
+  }
+  .opacity-full {
+      opacity: 1 !important;
+  }
+
+//   svg animations
+.circle {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: stroke 2s ease-out forwards;
+  }
+  
+  @keyframes stroke {
+    to {
+      stroke-dashoffset: 0;
     }
   }

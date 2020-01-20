@@ -1,6 +1,7 @@
 new Vue({
     el: '#map_app',
     data: {
+        homePageSlide: 1,
         stateList: [
             {
                 id: 1,
@@ -28,6 +29,15 @@ new Vue({
     },
     created: function(){
         this.selectedSate = this.stateList[this.initialIndex];
+    },
+    mounted: function() {
+        let self=this;
+        let intervalPicker = setInterval(function($event){
+            self.homePageSlide=self.homePageSlide+1;
+            if(self.homePageSlide == 4){
+                clearInterval(intervalPicker);
+            }
+        }, 500);
     },
     methods: {
         changeIndex: function(index) {
