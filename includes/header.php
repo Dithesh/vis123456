@@ -22,9 +22,7 @@
     <link rel="stylesheet" href="assets/owl-carousel/owl.carousel.css" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/owl-carousel/owl.theme.default.css" crossorigin="anonymous">
 
-    <!-- <link rel="stylesheet" type="text/css" href="css/animate.css"> -->
-    <!-- aos animation -->
-    <!-- <link rel="stylesheet" type="text/css" href="css/aos.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
     <!-- <link rel="stylesheet" type="text/css" href="css/jquery.simplyscroll.css"> -->
     <!-- google font -->
     
