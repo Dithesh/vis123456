@@ -952,15 +952,222 @@ html,body{
       opacity: 1 !important;
   }
 
-//   svg animations
-.circle {
-    stroke-dasharray: 1000;
-    stroke-dashoffset: 1000;
-    animation: stroke 2s ease-out forwards;
+  .circle_animateBox{
+      position: relative;
+    .circle1 {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        stroke-linecap: round;
+        fill: rgba(#000000,0.2);
+        transform: rotate(-120deg);
+        transform-origin: center;
+        animation-name: stroke1;
+        animation-fill-mode: forwards;
+      }
+      .circle2 {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        stroke-linecap: round;
+        fill: rgba(#000000,0.2);
+        transform: rotate(-110deg);
+        transform-origin: center;
+        animation-name: stroke2;
+        animation-fill-mode: forwards;
+      }
+      .circle3 {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        stroke-linecap: round;
+        fill: rgba(#000000,0.2);
+        transform: rotate(-45deg);
+        transform-origin: center;
+        animation-name: stroke3;
+        animation-fill-mode: forwards;
+      }
+      .middleBox{
+        position: absolute;
+        width: 100%;
+        top: 23%;
+        padding: 20px;
+        text-align: center;
+        font-family:  'Evogria', sans-serif; 
+        line-height: 1;
+        span{
+            font-size: 1.8rem;
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+        h2{
+            text-shadow: 0px 2px 12px rgba(0, 0, 0, 0.5);
+            margin: 0;
+            line-height: 1;
+            span{
+                margin-bottom: 0px;
+            }
+            .counterNumber{
+              font-size: 7rem;
+              letter-spacing: -7px;
+              line-height: 1;
+            }
+            .upper{
+                font-size: 3.8rem;
+                line-height: 1;
+                top: -0.8em;
+            }
+        }
+        p{
+            font-size: 3rem;
+            position: relative;
+            margin: 0;
+            line-height: 1;
+            margin-top: 8px;
+            &:after{
+                content: "";
+                position: absolute;
+                width: 30px;
+                height: 4px;
+                background-color: #ffa722;
+                left: 50%;
+                margin-left: -15px;
+                bottom: -10px;
+            }
+        }
+    }
+    .nameBox{
+      font-family:  'Evogria', sans-serif; 
+      line-height: 1;
+      text-align: center;
+      margin-top: 10px;
+      font-size: 3rem;
+    }
+      .circleDot{
+            position: absolute;
+            z-index: 3;
+            background-color: #fff;
+            border-radius: 50%;      
+        }
+      &.circleBox1{
+          .circleDot{
+            width: 25px;
+            height: 25px;
+            top: 25px;
+            left: 63px;
+          }
+      }
+      &.circleBox2{
+        .circleDot{
+          width: 20px;
+          height: 20px;
+          top: 15px;
+          left: 63px;
+        }
+        .middleBox{
+            top: 20%;
+            padding: 10px;
+            h2{
+                text-shadow: 0px 2px 12px rgba(0, 0, 0, 0.5);
+                margin: 0;
+                line-height: 1;
+                .counterNumber{
+                  font-size: 5rem;
+                  letter-spacing: -5px;
+                  line-height: 1;
+                }
+            }
+            p{
+                font-size: 1.6rem;
+                position: relative;
+                margin: 0;
+                line-height: 1;
+                margin-top: 8px;
+                &:after{
+                    content: "";
+                    position: absolute;
+                    width: 30px;
+                    height: 4px;
+                    background-color: #ffa722;
+                    left: 50%;
+                    margin-left: -15px;
+                    bottom: -10px;
+                }
+            }
+        }
+        .nameBox{
+          font-family:  'Evogria', sans-serif; 
+          line-height: 1;
+          text-align: center;
+          margin-top: 0px;
+          font-size: 2rem;
+        }
+    }
+    &.circleBox3{
+        .circleDot{
+            width: 20px;
+            height: 20px;
+            top: 33px;
+            right: 35px;
+        }
+        .middleBox{
+            top: 25%;
+            padding: 10px;
+            h2{
+                text-shadow: 0px 2px 12px rgba(0, 0, 0, 0.5);
+                margin: 0;
+                line-height: 1;
+                .counterNumber{
+                  font-size: 5rem;
+                  letter-spacing: -5px;
+                  line-height: 1;
+                }
+            }
+            p{
+                font-size: 1.6rem;
+                position: relative;
+                margin: 0;
+                line-height: 1;
+                margin-top: 8px;
+                &:after{
+                    content: "";
+                    position: absolute;
+                    width: 30px;
+                    height: 4px;
+                    background-color: #ffa722;
+                    left: 50%;
+                    margin-left: -15px;
+                    bottom: -10px;
+                }
+            }
+        }
+        .nameBox{
+          font-family:  'Evogria', sans-serif; 
+          line-height: 1;
+          text-align: center;
+          margin-top: 0px;
+          font-size: 2rem;
+        }
+    }
+      
   }
-  
-  @keyframes stroke {
+
+//   svg animations
+  @keyframes stroke1 {
     to {
-      stroke-dashoffset: 0;
+    //   stroke-dashoffset: 210;
+    stroke-dashoffset: 1975;
+    //   fill: rgba(#000000,0.2);
+    }
+  }
+  @keyframes stroke2 {
+    to {
+    //   stroke-dashoffset: 700;
+    stroke-dashoffset: 1975;
+    //   fill: rgba(#000000,0.2);
+    }
+  }
+  @keyframes stroke3 {
+    to {
+      stroke-dashoffset: 520;
+    // stroke-dashoffset: 1975;
+    //   fill: rgba(#000000,0.2);
     }
   }

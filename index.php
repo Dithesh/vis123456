@@ -88,29 +88,31 @@
             <div class="row">
                 <div class="col-lg-6 col-12">
                     <div class="section_titleBox mb-5 pb-5">
-                        <h2>AT A GLANCE</h2>
+                        <h2 class="wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s">AT A GLANCE</h2>
                     </div>
                     <div class="section_detailBox">
                         <h5>Vistaar is a commitment to create new economic opportunities for</h5>
                         <p>deserving small business women and men, enriching lives and transforming communities. The company focuses on the missing middle segment, which is not effectively served by the formal financial system. Vistaar works to make available appropriately designed financial services, for this segment alone. This is nation building done right, one entrepreneur at a time. </p>
                     </div>
                 </div>
-                <div class="col-lg-6 col-12">
-                    <div class="circle_animateBox">
-                    <svg height="200" width="200">
-                        <circle class="circle" cx="100" cy="100" r="95" stroke="#231f20" stroke-width="10" fill-opacity="0" />
-                    </svg>
-                    <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 300 300" preserveAspectRatio="none" style="width:300; height:300; top:0; left:0;">
-                        <defs>
-                            <linearGradient id="circle_bg_1" x1="0%" y1="0%" x2="0%" y2="100%">
-                                <stop offset="0%" stop-color="#00bc9b" />
-                                <stop offset="100%" stop-color="#000000" />
-                            </linearGradient> 
-                        </defs>
-                        <circle cx="100" cy="100" r="57" id="green-halo" fill="none" stroke="url(#circle_bg_1)" stroke-width="15" stroke-dasharray="0,20000" transform="rotate(-90,100,100)" />
-                        <text id="myTimer" text-anchor="middle" x="100" y="110" style="font-size: 36px;" >0%</text>
-                    </svg> -->
-                    
+                <div class="col-lg-6 col-12 text-center">
+                    <div class="circle_animateBox circleBox1 d-inline-block mt-5 pt-3">
+                        <svg height="280" width="280">
+                            <defs>
+                                <linearGradient id="circle_bg_1" x1="0%" y1="0%" x2="0%" y2="100%">
+                                    <stop offset="0%" stop-color="#01a7fe" />
+                                    <stop offset="100%" stop-color="#34dadd" />
+                                </linearGradient> 
+                            </defs>
+                            <circle class="circle1 wow" data-wow-duration="3s" data-wow-delay="1s" cx="140" cy="140" r="130" stroke="url(#circle_bg_1)" stroke-width="15"/>
+                        </svg>
+                        <div class="circleDot"></div>
+                        <div class="middleBox">
+                            <span>Nov. 2019</span>
+                            <h2><sup class="upper">&#8377;</sup><span class="counterNumber" id="number1">0000</span></h2>
+                            <p>CRORE</p>
+                        </div>
+                        <div class="nameBox">PORTFOLIO</div>
                     </div>
                 </div>
             </div>
@@ -129,7 +131,7 @@
         <div class="row">
             <div class="col-lg-4 col-12">
                 <div class="section_titleBox mb-5 pb-3">
-                    <h2>VISTAAR PRESENCE</h2>
+                    <h2 class="wow fadeInDown" data-wow-duration="0.5s" data-wow-delay="0.5s">VISTAAR PRESENCE</h2>
                 </div>
                 <div class="section_detailBox">
                     <p>Vistaar’s portfolio is well diversified across sectors, geographies and offering unique products in line with the company’s long-term policy of de-risking, while meeting customer demands to a maximum.</p>
@@ -154,6 +156,47 @@
                             <a href="javascript:;" class="contact_button">
                                 Contact here
                             </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-5 pt-5">
+                    <div class="col-sm-6">
+                        <div class="circle_animateBox circleBox2 d-inline-block">
+                            <svg height="200" width="200">
+                                <defs>
+                                    <linearGradient id="circle_bg_2" x1="0%" y1="0%" x2="0%" y2="100%">
+                                        <stop offset="0%" stop-color="#01a7fe" />
+                                        <stop offset="100%" stop-color="#34dadd" />
+                                    </linearGradient> 
+                                </defs>
+                                <circle class="circle2 wow" data-wow-duration="3s" data-wow-delay="1s" cx="100" cy="100" r="80" stroke="url(#circle_bg_2)" stroke-width="10"/>
+                            </svg>
+                            <div class="circleDot"></div>
+                            <div class="middleBox">
+                                <h2><span class="counterNumber" id="number2">0000</span></h2>
+                                <p>Across India</p>
+                            </div>
+                            <div class="nameBox">Branches</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="circle_animateBox circleBox3 d-inline-block">
+                            <svg height="200" width="200">
+                                <defs>
+                                    <linearGradient id="circle_bg_3" x1="0%" y1="0%" x2="0%" y2="100%">
+                                        <stop offset="0%" stop-color="#01a7fe" />
+                                        <stop offset="100%" stop-color="#34dadd" />
+                                    </linearGradient> 
+                                </defs>
+                                <circle class="circle3 wow" data-wow-duration="3s" data-wow-delay="0.5s" cx="100" cy="100" r="80" stroke="url(#circle_bg_3)" stroke-width="10"/>
+                            </svg>
+                            <div class="circleDot"></div>
+                            <div class="middleBox">
+                                <h2><span class="counterNumber" id="number3">0000</span></h2>
+                                <p></p>
+                            </div>
+                            <div class="nameBox">Active<br>Customers</div>
                         </div>
                     </div>
                 </div>
@@ -246,7 +289,7 @@
         <span class="bottomShadow"></span>
         <div class="testimonial_inner">
             <h3>NEWS & UPDATES</h3>
-            <div class="owl-carousel owl-theme">
+            <div class="owl-carousel testimonialOuter owl-theme">
                 <div class="item testimonials">
                     <div class="row">
                         <div class="col-sm-3">

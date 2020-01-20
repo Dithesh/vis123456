@@ -29,6 +29,13 @@ new Vue({
     },
     created: function(){
         this.selectedSate = this.stateList[this.initialIndex];
+        // $('.owl-carousel').owlCarousel({
+        //     loop:true,
+        //     nav:false,
+        //     dots:true,
+        //     items:1
+        //   });
+        
     },
     mounted: function() {
         let self=this;
@@ -38,6 +45,7 @@ new Vue({
                 clearInterval(intervalPicker);
             }
         }, 500);
+        
     },
     methods: {
         changeIndex: function(index) {

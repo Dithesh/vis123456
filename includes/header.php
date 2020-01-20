@@ -28,12 +28,13 @@
     
     <link rel="stylesheet" type="text/css" href="css/style.css">
     
+    <script type="text/javascript" src="js/jquery.js"></script>
     <title>Vistaar</title>
 </head>
 
 <body>
     <span  id="map_app" v-cloak>
-    <div class="full_slider opacity-full" v-bind:class="{slide1: homePageSlide == 2, slide2: homePageSlide == 3}" v-if="homePageSlide < 4"></div>
+    <!-- <div class="full_slider opacity-full" v-bind:class="{slide1: homePageSlide == 2, slide2: homePageSlide == 3}" v-if="homePageSlide < 4"></div>
     
     <div class="full_slider slide1 fadeIn" v-if="homePageSlide == 1">
         <div class="text_box">
@@ -76,8 +77,8 @@
         <img src="images/circle.png" class="banner_designImage circle1" alt="">
         <img src="images/circle.png" class="banner_designImage circle2" alt="">
         <img src="images/arrow.png" class="banner_designImage arrow1 fadeOutRight" alt="">
-    </div>
-    <span v-if="homePageSlide == 4">
+    </div> -->
+    <!-- <span v-if="homePageSlide == 4"> -->
 
 
     <div class="header_menuOuter">
