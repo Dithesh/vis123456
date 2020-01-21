@@ -1,78 +1,131 @@
 <?php include('includes/header.php'); ?>
 
-<section class="home_bannerBox">
+<section class="home_bannerBox_outer">
     <img src="images/dots_group.png" class="banner_designImage donts1" alt="">
     <img src="images/dots_group.png" class="banner_designImage donts2" alt="">
     <img src="images/circle.png" class="banner_designImage circle1" alt="">
     <img src="images/circle.png" class="banner_designImage circle2" alt="">
     <img src="images/arrow.png" class="banner_designImage arrow1" alt="">
-    <div class="container">
-        <div class="top_middleLine mx-auto"></div>
-        <div class="banner_textBox text-center">
-            <!-- <h4>EMPOWERING SMALL</h4> -->
-            <h3 class="wow no_visible fadeInDown" data-wow-duration="2s" data-wow-delay="1s">BUSINESSES</h3>
+    <div class="owl-carousel hero_slider owl-theme">
+        <div class="item">
+            <div class="full_slider slide4">
+                <div class="container">
+                    <div class="top_middleLine mx-auto"></div>
+                    <div class="banner_textBox text-center">
+                        <h4 class="wow no_visible fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">EMPOWERING SMALL BUSINESSES</h4>
+                        <h3 class="wow no_visible fadeInDown" data-wow-duration="1.5s" data-wow-delay="1s">WITH BIG DREAMS.</h3>
+                    </div>
+                    <div class="tag_lineBox text-center">
+                        <img src="images/text-box.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="bottom_middleLine mx-auto"></div>
+                </div>
+            </div>
         </div>
-        <div class="tag_lineBox text-center">
-            <img src="images/text-box.png" class="img-fluid wow no_visible fadeIn" data-wow-duration="1.5s" data-wow-delay="0.5s" alt="">
+        <div class="item">
+            <div class="full_slider slide1">
+                <div class="container">
+                    <div class="text_box">
+                        <span class="quotesImg left fadeInLeft"><img src="images/qoute.png" alt=""></span>
+                        <span class="quotesImg right fadeInRight"><img src="images/qoute_right.png" alt=""></span>
+                        <h3 class="fadeInUp">I HAVE A</h3>
+                        <h1 class="fadeInDown">BIGGER STORE.</h1>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="bottom_middleLine mx-auto"></div>
-        <div class="banner_menuBoxRow">
-            <div class="row">
-                <div class="col-lg col-md-3">
-                    <div class="bannerMenu_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.1s">
-                        <a href="#" class="bannerMenu_inner">
-                            <img src="images/small-arrow.png" class="arrow_img" alt="">
-                            <span>About Us</span>
-                        </a>
+        <div class="item">
+            <div class="full_slider slide2">
+                <div class="container">
+                    <div class="text_box">
+                    <span class="quotesImg left fadeInLeft"><img src="images/qoute.png" alt=""></span>
+                    <span class="quotesImg right fadeInRight"><img src="images/qoute_right.png" alt=""></span>
+                        <h3 class="fadeInUp">I HAVE TRADITIONAL</h3>
+                        <h1 class="fadeInDown">CRAFT WORK STOCK.</h1>
                     </div>
                 </div>
-                <div class="col-lg col-md-3">
-                    <div class="bannerMenu_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.1s">
-                        <a href="#" class="bannerMenu_inner">
-                            <img src="images/small-arrow.png" class="arrow_img" alt="">
-                            <span>Products</span>
-                        </a>
+            </div>
+        </div>
+        <div class="item">
+            <div class="full_slider slide3">
+                <div class="container">
+                    <div class="text_box">
+                        <h3 class="fadeInUp">EMPOWERING SMALL</h3>
+                        <h1 class="fadeInDown">BUSINESSES</h1>
                     </div>
+                    <div class="bg_transText text-center">
+                        <h1 class="fadeInLeft">EMPOWERING</h1>
+                        <h1 class="fadeIn">SMALL</h1>
+                        <h1 class="fadeInRight">BUSINESSES</h1>
+                    </div>
+                    <img src="images/text-box.png" class="banner_designImage textImgBox fadeIn" alt="">
                 </div>
-                <div class="col-lg col-md-3">
-                    <div class="bannerMenu_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.3s">
-                        <a href="#" class="bannerMenu_inner">
-                            <img src="images/small-arrow.png" class="arrow_img" alt="">
-                            <span>Our Customers</span>
-                        </a>
-                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner_menuBoxRow">
+        <div class="row">
+            <div class="col-lg col-md-3">
+                <div class="bannerMenu_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.1s">
+                    <a href="#" class="bannerMenu_inner">
+                        <img src="images/small-arrow.png" class="arrow_img" alt="">
+                        <span>About Us</span>
+                        <p>Saral Business Sampatti Vyapar Mortgage</p>
+                    </a>
                 </div>
-                <div class="col-lg col-md-3">
-                    <div class="bannerMenu_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">
-                        <a href="#" class="bannerMenu_inner">
-                            <img src="images/small-arrow.png" class="arrow_img" alt="">
-                            <span>Working At Vistaar</span>
-                        </a>
-                    </div>
+            </div>
+            <div class="col-lg col-md-3">
+                <div class="bannerMenu_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.1s">
+                    <a href="#" class="bannerMenu_inner">
+                        <img src="images/small-arrow.png" class="arrow_img" alt="">
+                        <span>Products</span>
+                        <p>Saral Business Sampatti Vyapar Mortgage</p>
+                    </a>
                 </div>
-                <div class="col-lg col-md-3">
-                    <div class="bannerMenu_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.7s">
-                        <a href="#" class="bannerMenu_inner">
-                            <img src="images/small-arrow.png" class="arrow_img" alt="">
-                            <span>Investor Relations</span>
-                        </a>
-                    </div>
+            </div>
+            <div class="col-lg col-md-3">
+                <div class="bannerMenu_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.3s">
+                    <a href="#" class="bannerMenu_inner">
+                        <img src="images/small-arrow.png" class="arrow_img" alt="">
+                        <span>Our Customers</span>
+                        <p>Saral Business Sampatti Vyapar Mortgage</p>
+                    </a>
                 </div>
-                <div class="col-lg col-md-3">
-                    <div class="bannerMenu_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.9s">
-                        <a href="#" class="bannerMenu_inner">
-                            <img src="images/small-arrow.png" class="arrow_img" alt="">
-                            <span>News</span>
-                        </a>
-                    </div>
+            </div>
+            <div class="col-lg col-md-3">
+                <div class="bannerMenu_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">
+                    <a href="#" class="bannerMenu_inner">
+                        <img src="images/small-arrow.png" class="arrow_img" alt="">
+                        <span>Working At Vistaar</span>
+                        <p>Saral Business Sampatti Vyapar Mortgage</p>
+                    </a>
                 </div>
-                <div class="col-lg col-md-3">
-                    <div class="bannerMenu_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="2.1s">
-                        <a href="#" class="bannerMenu_inner">
-                            <img src="images/small-arrow.png" class="arrow_img" alt="">
-                            <span>Contact</span>
-                        </a>
-                    </div>
+            </div>
+            <div class="col-lg col-md-3">
+                <div class="bannerMenu_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.7s">
+                    <a href="#" class="bannerMenu_inner">
+                        <img src="images/small-arrow.png" class="arrow_img" alt="">
+                        <span>Investor Relations</span>
+                        <p>Saral Business Sampatti Vyapar Mortgage</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg col-md-3">
+                <div class="bannerMenu_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.9s">
+                    <a href="#" class="bannerMenu_inner">
+                        <img src="images/small-arrow.png" class="arrow_img" alt="">
+                        <span>News</span>
+                        <p>Saral Business Sampatti Vyapar Mortgage</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg col-md-3">
+                <div class="bannerMenu_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="2.1s">
+                    <a href="#" class="bannerMenu_inner">
+                        <img src="images/small-arrow.png" class="arrow_img" alt="">
+                        <span>Contact</span>
+                        <p>Saral Business Sampatti Vyapar Mortgage</p>
+                    </a>
                 </div>
             </div>
         </div>
@@ -104,12 +157,12 @@
                                     <stop offset="100%" stop-color="#34dadd" />
                                 </linearGradient> 
                             </defs>
-                            <circle class="circle1 wow" data-wow-duration="3s" data-wow-delay="1s" cx="140" cy="140" r="130" stroke="url(#circle_bg_1)" stroke-width="15"/>
+                            <circle class="circle1" cx="140" cy="140" r="130" stroke="url(#circle_bg_1)" stroke-width="15"/>
                         </svg>
                         <div class="circleDot"></div>
                         <div class="middleBox">
                             <span>Nov. 2019</span>
-                            <h2><sup class="upper">&#8377;</sup><span class="counterNumber" id="number1">0000</span></h2>
+                            <h2><sup class="upper">&#8377;</sup><span class="counterNumber" id="number1">1716</span></h2>
                             <p>CRORE</p>
                         </div>
                         <div class="nameBox">PORTFOLIO</div>
@@ -162,7 +215,7 @@
 
                 <div class="row mt-5 pt-5">
                     <div class="col-sm-6">
-                        <div class="circle_animateBox circleBox2 d-inline-block " data-wow-duration="3s" data-wow-delay="0.5s">
+                        <div class="circle_animateBox circleBox2 wow d-inline-block " data-wow-duration="3s" data-wow-delay="0.5s">
                             <svg height="200" width="200">
                                 <defs>
                                     <linearGradient id="circle_bg_2" x1="0%" y1="0%" x2="0%" y2="100%">
@@ -170,14 +223,14 @@
                                         <stop offset="100%" stop-color="#34dadd" />
                                     </linearGradient> 
                                 </defs>
-                                <circle class="" cx="100" cy="100" r="80" fill="transparent" stroke="url(#circle_bg_2)" stroke-width="10" strokeDashoffset="0"/>
+                                <circle class="circle2" cx="100" cy="100" r="80" fill="transparent" stroke="url(#circle_bg_2)" stroke-width="10" strokeDashoffset="0"/>
                             </svg>
-                            <!-- <div class="circleDot"></div>
+                            <div class="circleDot"></div>
                             <div class="middleBox">
-                                <h2><span class="counterNumber" id="number2">0000</span></h2>
+                                <h2><span class="counterNumber" id="number2">222</span></h2>
                                 <p>Across India</p>
                             </div>
-                            <div class="nameBox">Branches</div> -->
+                            <div class="nameBox">Branches</div>
                         </div>
                     </div>
                     <div class="col-sm-6">
@@ -193,8 +246,8 @@
                             </svg>
                             <div class="circleDot"></div>
                             <div class="middleBox">
-                                <h2><span class="counterNumber" id="number3">0000</span></h2>
-                                <p></p>
+                                <h2><span class="counterNumber" id="number3">34718</span></h2>
+                                <p class="pt-0"></p>
                             </div>
                             <div class="nameBox">Active<br>Customers</div>
                         </div>

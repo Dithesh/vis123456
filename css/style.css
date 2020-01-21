@@ -78,53 +78,116 @@ html, body {
   background-size: cover;
   height: 100%;
   width: 100%;
-  min-height: 100vh;
-  position: fixed;
-  left: 0;
-  top: 0;
-  color: #fff;
-  opacity: 0;
-  animation-delay: 0.5s;
-  animation-duration: 1s;
-  animation-fill-mode: forwards; }
+  min-height: 100vh; }
+  .full_slider.outerSlider {
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: #fff;
+    opacity: 0;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards; }
+  .full_slider.slide4 {
+    background-image: url(./../images/Vistaar_Website-Banner-4.png); }
+    .full_slider.slide4 .top_middleLine {
+      width: 3px;
+      height: 120px;
+      margin-bottom: 50px;
+      position: relative; }
+      .full_slider.slide4 .top_middleLine:after {
+        content: "";
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 0%;
+        background-color: #fff;
+        animation: grow 2s linear 0.1s 1 alternate forwards; }
+    .full_slider.slide4 .bottom_middleLine {
+      width: 3px;
+      height: 80px;
+      margin-top: 10px;
+      position: relative; }
+      .full_slider.slide4 .bottom_middleLine:after {
+        content: "";
+        left: 0;
+        top: 0;
+        position: absolute;
+        width: 100%;
+        height: 0%;
+        background-color: #fff;
+        animation: grow 2s linear 0.1s 1 alternate forwards; }
+    .full_slider.slide4 .banner_textBox {
+      color: #fff; }
+      .full_slider.slide4 .banner_textBox h4 {
+        font-size: 2.5rem;
+        margin-bottom: 0px;
+        font-family: 'Evogria', sans-serif; }
+      .full_slider.slide4 .banner_textBox h3 {
+        font-size: 4rem;
+        margin-bottom: 0px;
+        font-family: 'Evogria', sans-serif; }
+    .full_slider.slide4 .tag_lineBox {
+      width: 150px;
+      margin: 10px auto; }
   .full_slider.slide1 {
-    background-image: url(./../images/Vistaar_Website-Banner-1.png);
-    z-index: 1051; }
+    background-image: url(./../images/Vistaar_Website-Banner-1.png); }
   .full_slider.slide2 {
-    background-image: url(./../images/Vistaar_Website-Banner-2.png);
-    z-index: 1052; }
+    background-image: url(./../images/Vistaar_Website-Banner-2.png); }
   .full_slider.slide3 {
-    background-color: #0728dc;
-    z-index: 1053; }
+    background-color: #0728dc; }
+  .full_slider .dotsOuter {
+    position: absolute;
+    z-index: 50;
+    right: 10%;
+    top: 50%;
+    margin-bottom: 0px;
+    transform: translateY(-50%); }
+    .full_slider .dotsOuter li {
+      width: 10px;
+      height: 10px;
+      border: 1px solid #fff;
+      background-color: transparent;
+      cursor: pointer;
+      margin-bottom: 4px; }
+      .full_slider .dotsOuter li.active {
+        background-color: #fff; }
   .full_slider .text_box {
     color: #fff;
     line-height: 1;
     display: inline-block;
-    position: relative;
+    position: absolute;
     top: 40%;
     left: 10%; }
     .full_slider .text_box .quotesImg {
       position: absolute;
-      width: 15px;
       opacity: 0;
       animation-delay: 2s;
       animation-duration: 1s;
       animation-fill-mode: forwards; }
       .full_slider .text_box .quotesImg.left {
-        top: -8px;
+        top: -10px;
         left: -24px; }
       .full_slider .text_box .quotesImg.right {
         right: -13px;
-        top: 31%; }
+        top: 30%; }
+      .full_slider .text_box .quotesImg img {
+        opacity: 0.8;
+        width: 15px; }
     .full_slider .text_box h3 {
-      font-size: 2.2rem;
+      font-size: 3.8rem;
+      line-height: 1.1;
+      margin-bottom: 0px;
       opacity: 0;
       font-family: 'Evogria', sans-serif;
       animation-delay: 1.8s;
       animation-duration: 1s;
       animation-fill-mode: forwards; }
     .full_slider .text_box h1 {
-      font-size: 4rem;
+      font-size: 7rem;
+      line-height: 1;
+      margin-bottom: 0px;
       opacity: 0;
       font-family: 'Evogria', sans-serif;
       animation-delay: 1.4s;
@@ -135,20 +198,20 @@ html, body {
     position: absolute;
     left: 50%;
     top: 50%;
-    opacity: 0;
-    transform: translate(-50%, -50%);
     z-index: 0;
-    animation-delay: 1.4s;
-    animation-duration: 1s;
-    animation-fill-mode: forwards; }
+    transform: translate(-50%, -50%); }
     .full_slider .bg_transText h1 {
       font-size: 10rem;
       line-height: 1;
-      color: rgba(255, 255, 255, 0.2);
-      font-family: 'Evogria', sans-serif; }
+      color: rgba(255, 255, 255, 0.1);
+      font-family: 'Evogria', sans-serif;
+      opacity: 0;
+      animation-delay: 1.4s;
+      animation-duration: 1s;
+      animation-fill-mode: forwards; }
   .full_slider .banner_designImage {
     position: absolute;
-    z-index: 1; }
+    z-index: 2; }
     .full_slider .banner_designImage.textImgBox {
       left: 50%;
       top: 50%;
@@ -255,23 +318,17 @@ html, body {
     .header_menuOuter .social_menuBox a img {
       height: 13px; }
 
-.home_bannerBox {
-  background-image: url(./../images/Vistaar_Website-Banner-4.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  min-height: 100vh;
-  position: relative;
-  color: #fff; }
-  .home_bannerBox .banner_designImage {
+.home_bannerBox_outer {
+  position: relative; }
+  .home_bannerBox_outer .banner_designImage {
     position: absolute;
     z-index: 1; }
-    .home_bannerBox .banner_designImage.donts1 {
+    .home_bannerBox_outer .banner_designImage.donts1 {
       left: 8%;
       top: 25%;
       opacity: 0.5;
       width: 100px; }
-    .home_bannerBox .banner_designImage.donts2 {
+    .home_bannerBox_outer .banner_designImage.donts2 {
       bottom: 20%;
       right: 35%;
       opacity: 0.5;
@@ -280,72 +337,41 @@ html, body {
       -moz-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
       transform: rotate(90deg); }
-    .home_bannerBox .banner_designImage.circle1 {
+    .home_bannerBox_outer .banner_designImage.circle1 {
       right: 15%;
       top: 25%;
       width: 20px; }
-    .home_bannerBox .banner_designImage.circle2 {
+    .home_bannerBox_outer .banner_designImage.circle2 {
       bottom: 1%;
       left: 10%;
       width: 20px; }
-    .home_bannerBox .banner_designImage.arrow1 {
+    .home_bannerBox_outer .banner_designImage.arrow1 {
       bottom: 27%;
       left: 38%;
       width: 30px; }
-  .home_bannerBox .container {
-    min-height: 100vh;
-    padding-bottom: 150px;
-    position: relative; }
-  .home_bannerBox .top_middleLine {
-    width: 3px;
-    height: 120px;
-    margin-bottom: 50px;
-    position: relative; }
-    .home_bannerBox .top_middleLine:after {
-      content: "";
-      left: 0;
-      position: absolute;
-      top: 0;
-      width: 100%;
-      height: 0%;
-      background-color: #fff;
-      animation: grow 2s linear 0.1s 1 alternate forwards; }
-  .home_bannerBox .bottom_middleLine {
-    width: 3px;
-    height: 80px;
-    margin-top: 10px;
-    position: relative; }
-    .home_bannerBox .bottom_middleLine:after {
-      content: "";
-      left: 0;
-      top: 0;
-      position: absolute;
-      width: 100%;
-      height: 0%;
-      background-color: #fff;
-      animation: grow 2s linear 0.1s 1 alternate forwards; }
-  .home_bannerBox .banner_textBox h3 {
-    font-size: 4rem;
-    margin-bottom: 0px;
-    font-family: 'Evogria', sans-serif; }
-  .home_bannerBox .tag_lineBox {
-    width: 150px;
-    margin: 10px auto; }
-  .home_bannerBox .banner_menuBoxRow {
+  .home_bannerBox_outer .banner_menuBoxRow {
     position: absolute;
-    left: 15px;
-    right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1200px;
+    max-width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
     bottom: 15px;
     margin-top: 30px;
     z-index: 2; }
-    .home_bannerBox .banner_menuBoxRow .bannerMenu_box {
+    .home_bannerBox_outer .banner_menuBoxRow .bannerMenu_box {
       padding: 5px;
       margin-bottom: 10px;
       border-radius: 10px;
       background-image: url("../images/border_image.png");
       background-size: 100% 100%;
-      background-repeat: no-repeat; }
-      .home_bannerBox .banner_menuBoxRow .bannerMenu_box .bannerMenu_inner {
+      background-repeat: no-repeat;
+      -webkit-transition: .2s ease-in-out;
+      -moz-transition: .2s ease-in-out;
+      -ms-transition: .2s ease-in-out;
+      transition: .2s ease-in-out; }
+      .home_bannerBox_outer .banner_menuBoxRow .bannerMenu_box .bannerMenu_inner {
         height: 110px;
         padding: 10px;
         display: block;
@@ -356,6 +382,7 @@ html, body {
         background-position: center, 40px bottom;
         position: relative;
         display: flex;
+        flex-wrap: wrap;
         line-height: 1.2;
         align-items: center;
         justify-content: center;
@@ -364,10 +391,10 @@ html, body {
         font-weight: 500;
         text-decoration: none;
         text-align: center; }
-        .home_bannerBox .banner_menuBoxRow .bannerMenu_box .bannerMenu_inner span {
+        .home_bannerBox_outer .banner_menuBoxRow .bannerMenu_box .bannerMenu_inner span {
           position: relative;
           display: inline-block; }
-          .home_bannerBox .banner_menuBoxRow .bannerMenu_box .bannerMenu_inner span:after {
+          .home_bannerBox_outer .banner_menuBoxRow .bannerMenu_box .bannerMenu_inner span:after {
             content: "";
             position: absolute;
             bottom: -10px;
@@ -376,11 +403,54 @@ html, body {
             width: 20px;
             left: 50%;
             margin-left: -10px; }
-        .home_bannerBox .banner_menuBoxRow .bannerMenu_box .bannerMenu_inner img {
+        .home_bannerBox_outer .banner_menuBoxRow .bannerMenu_box .bannerMenu_inner p {
+          font-size: 1rem;
+          line-height: 1.4;
+          font-weight: 200;
+          margin-bottom: 0;
+          overflow: hidden;
+          text-align: left;
+          opacity: 0;
+          max-height: 0;
+          flex: 0 0 100%;
+          max-width: 100%;
+          -webkit-transition: .2s ease-in-out;
+          -moz-transition: .2s ease-in-out;
+          -ms-transition: .2s ease-in-out;
+          transition: .2s ease-in-out; }
+        .home_bannerBox_outer .banner_menuBoxRow .bannerMenu_box .bannerMenu_inner img {
           position: absolute;
           top: 7px;
           right: 7px;
           width: 6px; }
+      .home_bannerBox_outer .banner_menuBoxRow .bannerMenu_box:hover {
+        -webkit-transition: .2s ease-in-out;
+        -moz-transition: .2s ease-in-out;
+        -ms-transition: .2s ease-in-out;
+        transition: .2s ease-in-out;
+        background-image: linear-gradient(30deg, #0052ec, #46ecd2); }
+        .home_bannerBox_outer .banner_menuBoxRow .bannerMenu_box:hover .bannerMenu_inner {
+          background-image: linear-gradient(50deg, rgba(0, 82, 237, 0), rgba(0, 0, 0, 0)), url("../images/graphic_small.png"); }
+          .home_bannerBox_outer .banner_menuBoxRow .bannerMenu_box:hover .bannerMenu_inner p {
+            max-height: 50px;
+            opacity: 1; }
+  .home_bannerBox_outer .owl-theme .owl-dots {
+    margin-top: 0px !important;
+    position: absolute;
+    right: 5%;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    transform: translateY(-50%); }
+    .home_bannerBox_outer .owl-theme .owl-dots .owl-dot span {
+      width: 10px;
+      height: 10px;
+      margin-bottom: 4px;
+      border: 1px solid #fff;
+      background: transparent;
+      border-radius: 0px; }
+    .home_bannerBox_outer .owl-theme .owl-dots .owl-dot.active span {
+      background-color: #fff; }
 
 .portfolio_section {
   background-color: #1d56dc;
@@ -700,7 +770,6 @@ html, body {
             width: 15px; }
         .map_box .state_data .branch_data .footer_box .contact_button {
           color: #fff;
-          /* display: inline-block; */
           flex: none;
           padding: 5px 8px;
           font-size: 1rem;
@@ -766,7 +835,7 @@ html, body {
   position: relative; }
   .circle_animateBox .circle1 {
     stroke-dasharray: 1000;
-    stroke-dashoffset: 0;
+    stroke-dashoffset: 1000;
     stroke-linecap: round;
     fill: rgba(0, 0, 0, 0.2);
     transform: rotate(-120deg);
@@ -774,14 +843,17 @@ html, body {
     animation-name: stroke1;
     animation-fill-mode: forwards; }
   .circle_animateBox .circle2 {
-    stroke-dashoffset: 0;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
     stroke-linecap: round;
     fill: rgba(0, 0, 0, 0.2);
     transform: rotate(-110deg);
-    transform-origin: center; }
+    transform-origin: center;
+    animation-name: stroke2;
+    animation-fill-mode: forwards; }
   .circle_animateBox .circle3 {
     stroke-dasharray: 1000;
-    stroke-dashoffset: 0;
+    stroke-dashoffset: 1000;
     stroke-linecap: round;
     fill: rgba(0, 0, 0, 0.2);
     transform: rotate(-45deg);
@@ -867,7 +939,7 @@ html, body {
       margin: 0;
       line-height: 1; }
       .circle_animateBox.circleBox2 .middleBox h2 .counterNumber {
-        font-size: 5rem;
+        font-size: 4.5rem;
         letter-spacing: -5px;
         line-height: 1; }
     .circle_animateBox.circleBox2 .middleBox p {
@@ -904,7 +976,7 @@ html, body {
       margin: 0;
       line-height: 1; }
       .circle_animateBox.circleBox3 .middleBox h2 .counterNumber {
-        font-size: 5rem;
+        font-size: 4.5rem;
         letter-spacing: -5px;
         line-height: 1; }
     .circle_animateBox.circleBox3 .middleBox p {
@@ -931,11 +1003,12 @@ html, body {
 
 @keyframes stroke1 {
   to {
+    stroke-dashoffset: 210;
     stroke-dashoffset: 1975; } }
 
 @keyframes stroke2 {
   to {
-    stroke-dashoffset: 1975; } }
+    stroke-dashoffset: 1980; } }
 
 @keyframes stroke3 {
   to {

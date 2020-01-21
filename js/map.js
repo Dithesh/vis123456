@@ -45,9 +45,19 @@ new Vue({
                     dots:true,
                     items:1
                   });
+                  $('.hero_slider').owlCarousel({
+                    animateOut: 'fadeOut',
+                    loop:true,
+                    nav:false,
+                    dots:true,
+                    autoplay:true,
+                    autoplayTimeout:3000,
+                    items:1,
+                    
+                  });
                 }, 50)
             }
-        }, 1);
+        }, 3000);
         
     },
     methods: {
