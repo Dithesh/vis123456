@@ -22,18 +22,19 @@
     <link rel="stylesheet" href="assets/owl-carousel/owl.carousel.css" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/owl-carousel/owl.theme.default.css" crossorigin="anonymous">
 
-    <!-- <link rel="stylesheet" type="text/css" href="css/animate.css"> -->
-    <!-- aos animation -->
-    <!-- <link rel="stylesheet" type="text/css" href="css/aos.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
     <!-- <link rel="stylesheet" type="text/css" href="css/jquery.simplyscroll.css"> -->
     <!-- google font -->
     
     <link rel="stylesheet" type="text/css" href="css/style.css">
     
+    <script type="text/javascript" src="js/jquery.js"></script>
     <title>Vistaar</title>
 </head>
 
 <body>
+    <span  id="map_app" v-cloak>
+    
     <div class="header_menuOuter">
         <div class="container">
             <div class="header_nav">
@@ -55,3 +56,49 @@
             </div>
         </div>
     </div>
+    <div class="full_slider opacity-full" v-bind:class="{slide1: homePageSlide == 2, slide2: homePageSlide == 3}" v-if="homePageSlide < 4"></div>
+    
+    <div class="full_slider slide1 fadeIn" v-if="homePageSlide == 1">
+        <div class="text_box">
+            <img src="images/qoute.png" class="quotesImg left fadeInLeft" alt="">
+            <img src="images/qoute_right.png" class="quotesImg right fadeInRight" alt="">
+            <h3 class="fadeInUp">I HAVE A</h3>
+            <h1 class="fadeInDown">BIGGER STORE.</h1>
+        </div>
+        <img src="images/dots_group.png" class="banner_designImage donts1" alt="">
+        <img src="images/dots_group.png" class="banner_designImage donts2" alt="">
+        <img src="images/circle.png" class="banner_designImage circle1" alt="">
+        <img src="images/circle.png" class="banner_designImage circle2" alt="">
+        <img src="images/arrow.png" class="banner_designImage arrow1 fadeOutRight" alt="">
+    </div>
+    <div class="full_slider slide2 fadeIn" v-if="homePageSlide == 2">
+        <div class="text_box">
+            <img src="images/qoute.png" class="quotesImg left fadeInLeft" alt="">
+            <img src="images/qoute_right.png" class="quotesImg right fadeInRight" alt="">
+            <h3 class="fadeInUp">I HAVE A</h3>
+            <h1 class="fadeInDown">BIGGER STORE.</h1>
+        </div>
+        <img src="images/dots_group.png" class="banner_designImage donts1" alt="">
+        <img src="images/dots_group.png" class="banner_designImage donts2" alt="">
+        <img src="images/circle.png" class="banner_designImage circle1" alt="">
+        <img src="images/circle.png" class="banner_designImage circle2" alt="">
+        <img src="images/arrow.png" class="banner_designImage arrow1 fadeOutRight" alt="">
+    </div>
+    <div class="full_slider slide3 fadeIn" v-if="homePageSlide == 3">
+        <div class="text_box">
+            <h3 class="fadeInUp">I HAVE A</h3>
+            <h1 class="fadeInDown">BIGGER STORE.</h1>
+        </div>
+        <div class="bg_transText text-center fadeIn">
+            <h1 >EMPOWERING</h1>
+            <h1>SMALL</h1>
+            <h1>BUSINESSES</h1>
+        </div>
+        <img src="images/text-box.png" class="banner_designImage textImgBox fadeIn" alt="">
+        <img src="images/dots_group.png" class="banner_designImage donts1" alt="">
+        <img src="images/circle.png" class="banner_designImage circle1" alt="">
+        <img src="images/circle.png" class="banner_designImage circle2" alt="">
+        <img src="images/arrow.png" class="banner_designImage arrow1 fadeOutRight" alt="">
+    </div>
+    <span v-if="homePageSlide == 4">
+
