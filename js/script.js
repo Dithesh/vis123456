@@ -27,12 +27,12 @@ function portfolioSvg() {
   var angle = 0;
   var angle_increment = 6;
 
-  window.timer = window.setInterval(function () {
-      myTimer.innerHTML = angle;
+  // window.timer = window.setInterval(function () {
+  //     myTimer.innerHTML = angle;
 
-      if (angle >= 1716) {
-          window.clearInterval(window.timer);
-      }
-      angle += angle_increment;
-  }.bind(this), interval);
+  //     if (angle >= 1716) {
+  //         window.clearInterval(window.timer);
+  //     }
+  //     angle += angle_increment;
+  // }.bind(this), interval);
 }

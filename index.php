@@ -162,7 +162,7 @@
 
                 <div class="row mt-5 pt-5">
                     <div class="col-sm-6">
-                        <div class="circle_animateBox circleBox2 d-inline-block">
+                        <div class="circle_animateBox circleBox2 d-inline-block " data-wow-duration="3s" data-wow-delay="0.5s">
                             <svg height="200" width="200">
                                 <defs>
                                     <linearGradient id="circle_bg_2" x1="0%" y1="0%" x2="0%" y2="100%">
@@ -170,14 +170,14 @@
                                         <stop offset="100%" stop-color="#34dadd" />
                                     </linearGradient> 
                                 </defs>
-                                <circle class="circle2 wow" data-wow-duration="3s" data-wow-delay="1s" cx="100" cy="100" r="80" stroke="url(#circle_bg_2)" stroke-width="10"/>
+                                <circle class="" cx="100" cy="100" r="80" fill="transparent" stroke="url(#circle_bg_2)" stroke-width="10" strokeDashoffset="0"/>
                             </svg>
-                            <div class="circleDot"></div>
+                            <!-- <div class="circleDot"></div>
                             <div class="middleBox">
                                 <h2><span class="counterNumber" id="number2">0000</span></h2>
                                 <p>Across India</p>
                             </div>
-                            <div class="nameBox">Branches</div>
+                            <div class="nameBox">Branches</div> -->
                         </div>
                     </div>
                     <div class="col-sm-6">
@@ -189,7 +189,7 @@
                                         <stop offset="100%" stop-color="#34dadd" />
                                     </linearGradient> 
                                 </defs>
-                                <circle class="circle3 wow" data-wow-duration="3s" data-wow-delay="0.5s" cx="100" cy="100" r="80" stroke="url(#circle_bg_3)" stroke-width="10"/>
+                                <circle class="circle3" cx="100" cy="100" r="80" stroke="url(#circle_bg_3)" stroke-width="10"/>
                             </svg>
                             <div class="circleDot"></div>
                             <div class="middleBox">

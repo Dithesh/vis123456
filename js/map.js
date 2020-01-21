@@ -29,12 +29,6 @@ new Vue({
     },
     created: function(){
         this.selectedSate = this.stateList[this.initialIndex];
-        // $('.owl-carousel').owlCarousel({
-        //     loop:true,
-        //     nav:false,
-        //     dots:true,
-        //     items:1
-        //   });
         
     },
     mounted: function() {
@@ -43,8 +37,17 @@ new Vue({
             self.homePageSlide=self.homePageSlide+1;
             if(self.homePageSlide == 4){
                 clearInterval(intervalPicker);
+                setTimeout(()=>{
+                    
+                $('.owl-carousel').owlCarousel({
+                    loop:true,
+                    nav:false,
+                    dots:true,
+                    items:1
+                  });
+                }, 50)
             }
-        }, 500);
+        }, 1);
         
     },
     methods: {

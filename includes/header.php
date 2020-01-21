@@ -34,7 +34,29 @@
 
 <body>
     <span  id="map_app" v-cloak>
-    <!-- <div class="full_slider opacity-full" v-bind:class="{slide1: homePageSlide == 2, slide2: homePageSlide == 3}" v-if="homePageSlide < 4"></div>
+    
+    <div class="header_menuOuter">
+        <div class="container">
+            <div class="header_nav">
+                <div class="nav_brandBox">
+                    <img src="images/logo.png" class="logo_img img-fluid" alt="">
+                </div>
+                <div class="nav_menuBar ml-auto">
+                    <ul class="list-unstyled">
+                        <li><a href="#">Partner with Us</a></li>
+                        <li><a href="#">Loan Enquiry</a></li>
+                        <li><a href="#">080-30088494</a></li>
+                    </ul>
+                </div>
+                <div class="social_menuBox">
+                    <a href="#"><img src="images/facebook.png" alt=""></a>
+                    <a href="#"><img src="images/linkedin.png" alt=""></a>
+                    <a href="#"><img src="images/youtube.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="full_slider opacity-full" v-bind:class="{slide1: homePageSlide == 2, slide2: homePageSlide == 3}" v-if="homePageSlide < 4"></div>
     
     <div class="full_slider slide1 fadeIn" v-if="homePageSlide == 1">
         <div class="text_box">
@@ -77,28 +99,6 @@
         <img src="images/circle.png" class="banner_designImage circle1" alt="">
         <img src="images/circle.png" class="banner_designImage circle2" alt="">
         <img src="images/arrow.png" class="banner_designImage arrow1 fadeOutRight" alt="">
-    </div> -->
-    <!-- <span v-if="homePageSlide == 4"> -->
-
-
-    <div class="header_menuOuter">
-        <div class="container">
-            <div class="header_nav">
-                <div class="nav_brandBox">
-                    <img src="images/logo.png" class="logo_img img-fluid" alt="">
-                </div>
-                <div class="nav_menuBar ml-auto">
-                    <ul class="list-unstyled">
-                        <li><a href="#">Partner with Us</a></li>
-                        <li><a href="#">Loan Enquiry</a></li>
-                        <li><a href="#">080-30088494</a></li>
-                    </ul>
-                </div>
-                <div class="social_menuBox">
-                    <a href="#"><img src="images/facebook.png" alt=""></a>
-                    <a href="#"><img src="images/linkedin.png" alt=""></a>
-                    <a href="#"><img src="images/youtube.png" alt=""></a>
-                </div>
-            </div>
-        </div>
     </div>
+    <span v-if="homePageSlide == 4">
+

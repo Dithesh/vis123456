@@ -236,7 +236,7 @@ html,body{
     left: 0;
     top: 0;
     width: 100%;
-    z-index: 99;
+    z-index: 1999;
     -webkit-transition: .3s ease-in-out;
     -moz-transition: .3s ease-in-out;
     -ms-transition: .3s ease-in-out;
@@ -857,7 +857,7 @@ html,body{
 
                 & .contact_button {
                     color: #fff;
-                    display: inline-block;
+                    // display: inline-block;
                     flex: none;
                     padding: 5px 8px;
                     font-size: 1rem;
@@ -954,9 +954,10 @@ html,body{
 
   .circle_animateBox{
       position: relative;
-    .circle1 {
+
+    & .circle1 {
         stroke-dasharray: 1000;
-        stroke-dashoffset: 1000;
+        stroke-dashoffset: 0;
         stroke-linecap: round;
         fill: rgba(#000000,0.2);
         transform: rotate(-120deg);
@@ -964,25 +965,39 @@ html,body{
         animation-name: stroke1;
         animation-fill-mode: forwards;
       }
-      .circle2 {
-        stroke-dasharray: 1000;
-        stroke-dashoffset: 1000;
+      & .circle2 {
+        // stroke-dasharray: 1000;
+        stroke-dashoffset: 0;
         stroke-linecap: round;
         fill: rgba(#000000,0.2);
         transform: rotate(-110deg);
         transform-origin: center;
-        animation-name: stroke2;
-        animation-fill-mode: forwards;
+        // animation-name: stroke2;
+        // animation-fill-mode: forwards;
       }
       .circle3 {
         stroke-dasharray: 1000;
-        stroke-dashoffset: 1000;
+        stroke-dashoffset: 0;
         stroke-linecap: round;
         fill: rgba(#000000,0.2);
         transform: rotate(-45deg);
         transform-origin: center;
         animation-name: stroke3;
         animation-fill-mode: forwards;
+      }
+      & .circle_animation_start {
+        & .circle1 {
+            animation-name: stroke1;
+            animation-fill-mode: forwards;
+        }
+        & .circle2 {
+            animation-name: stroke2;
+            animation-fill-mode: forwards;
+        }
+        & .circle3 {
+            animation-name: stroke3;
+            animation-fill-mode: forwards;
+        }
       }
       .middleBox{
         position: absolute;
