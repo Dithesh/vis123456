@@ -11,6 +11,7 @@
     <script src="assets/owl-carousel/owl.carousel.js" crossorigin="anonymous"></script>
     <script src="js/vue.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/wow.js"></script>
+    <script type="text/javascript" src="js/jquery.featureCarousel.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
     <script src="js/map.js"></script>
 </body>
