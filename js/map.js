@@ -6,23 +6,79 @@ new Vue({
             {
                 id: 1,
                 state: "Karnataka",
-                numberOfBranches: 36
+                numberOfBranches: 35
             },
             {
                 id: 2,
                 state: "Telangana",
-                numberOfBranches: 36
+                numberOfBranches: 05
             },
             {
                 id: 3,
                 state: "Andra pradesh",
-                numberOfBranches: 36
+                numberOfBranches: 17
             },
             {
                 id: 4,
                 state: "Madya pradesh",
-                numberOfBranches: 36
-            }
+                numberOfBranches: 29
+            },
+            {
+                id: 5,
+                state: "Chhattisgarh",
+                numberOfBranches: 04
+            },
+            {
+                id: 6,
+                state: "Delhi",
+                numberOfBranches: 01
+            },
+            {
+                id: 7,
+                state: "Gujarat",
+                numberOfBranches: 20
+            },
+            {
+                id: 8,
+                state: "Haryana",
+                numberOfBranches: 04
+            },
+            {
+                id: 9,
+                state: "Uttar Pradesh",
+                numberOfBranches: 07
+            },
+            {
+                id: 10,
+                state: "Uttarkhand",
+                numberOfBranches: 03
+            },
+            {
+                id: 11,
+                state: "Maharastra",
+                numberOfBranches: 35
+            },
+            {
+                id: 12,
+                state: "12",
+                numberOfBranches: 03
+            },
+            {
+                id: 13,
+                state: "Odisha",
+                numberOfBranches: 05
+            },
+            {
+                id: 16,
+                state: "Rajasthan",
+                numberOfBranches: 15
+            },
+            {
+                id: 17,
+                state: "Tamil Nadu",
+                numberOfBranches: 45
+            },
+            
         ],
         initialIndex: 0,
         selectedSate: null
@@ -57,7 +113,7 @@ new Vue({
                   });
                 }, 50)
             }
-        }, 3000);
+        }, 5000);
         
     },
     methods: {

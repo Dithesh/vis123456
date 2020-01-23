@@ -491,7 +491,7 @@ html,body{
                     font-weight: 200;
                     margin-bottom: 0;
                     overflow: hidden;
-                    text-align: left;
+                    // text-align: left;
                     opacity: 0;
                     max-height: 0;
                     flex: 0 0 100%;
@@ -1282,3 +1282,31 @@ html,body{
     //   fill: rgba(#000000,0.2);
     }
   }
+
+
+
+//   product page css
+.product_heroBannerOuter{
+    position: relative;
+    & .productSlider{
+        & .hero_imageBox{
+            min-height: 100vh;
+            background-image: url('../images/Vistaar_Website-Banner-1.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+    & .hero_outerStrip{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: 10;
+        left: 0;
+        top: 0;
+        background-image: url('../images/banner_patch.png');
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+    }
+}
