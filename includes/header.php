@@ -25,7 +25,7 @@
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <!-- <link rel="stylesheet" type="text/css" href="css/jquery.simplyscroll.css"> -->
     <!-- google font -->
-    <link rel="stylesheet" type="text/css" href="css/feature-carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.flipster.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     
     <script type="text/javascript" src="js/jquery.js"></script>

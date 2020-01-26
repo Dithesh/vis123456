@@ -2,7 +2,9 @@
         <div class="container">
             <div class="header_nav">
                 <div class="nav_brandBox">
-                    <img src="images/logo.png" class="logo_img img-fluid" alt="">
+                    <a href="index.php">
+                        <img src="images/logo.png" class="logo_img img-fluid" alt="">
+                    </a>
                 </div>
                 <div class="nav_menuBar ml-auto">
                     <ul class="list-unstyled">

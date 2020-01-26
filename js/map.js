@@ -85,7 +85,6 @@ new Vue({
     },
     created: function(){
         this.selectedSate = this.stateList[this.initialIndex];
-        
     },
     mounted: function() {
         let self=this;
@@ -111,9 +110,20 @@ new Vue({
                     items:1,
                     
                   });
+                //   $('.counterNumber').each(function () {
+                //     $(this).prop('Counter',0).animate({
+                //         Counter: $(this).text()
+                //     }, {
+                //         duration: 4000,
+                //         easing: 'swing',
+                //         step: function (now) {
+                //             $(this).text(Math.ceil(now));
+                //         }
+                //     });
+                //   });
                 }, 50)
             }
-        }, 5000);
+        }, 3000);
         
     },
     methods: {
