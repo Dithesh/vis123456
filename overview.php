@@ -8,16 +8,135 @@
     <img src="images/arrow.png" class="banner_designImage overviewSliderImage arrow1 fadeOutRight" alt="">
     <div class="owl-carousel overviewHero_slider owl-theme">
         <div class="item">
-                <div class="full_slider slide5">
-                    <div class="container">
-                        <div class="text_box overviewTitle">
-                            <h3 class="fadeInUp">EMPOWERING SMALL</h3>
-                            <h1 class="fadeInDown">BUSINESSES</h1>
+            <div class="full_slider slide5">
+                <div class="container">
+                    <div class="text_box overviewTitle">
+                        <h3 class="fadeInUp">EMPOWERING SMALL</h3>
+                        <h1 class="fadeInDown">BUSINESSES</h1>
+                    </div>
+                    <img src="images/text-box.png" class="banner_designImage textImgBox overview_slider fadeIn" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner_menuBoxRow" id="product_menu">
+            <div class="row" v-if="menuHidden">
+                <div class="col-lg col-md-3">
+                    <div class="bannerMenu_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <a href="overview.php" class="bannerMenu_inner">
+                            <div class="frontSide">
+                                <img src="images/small-arrow.png" class="arrow_img" alt="">
+                                <span>About Us</span>
+                            </div>
+                            <div class="backSide">
+                                <div>
+                                    <p>Mission &amp; Vision</p>
+                                    <p>Core Values</p>
+                                    <p>Five Principles</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg col-md-3">
+                    <div class="bannerMenu_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
+                        <a href="product.php" class="bannerMenu_inner">
+                        <div class="frontSide">
+                            <img src="images/small-arrow.png" class="arrow_img" alt="">
+                            <span>Products</span>
                         </div>
-                        <img src="images/text-box.png" class="banner_designImage textImgBox overview_slider fadeIn" alt="">
+                        <div class="backSide">
+                            <div>
+                                <p>Vistaar Lending Solutions</p>
+                                <p>Unique Credit Methodology</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg col-md-3">
+                    <div class="bannerMenu_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+                        <a href="partner.php" class="bannerMenu_inner">
+                        <div class="frontSide">
+                            <img src="images/small-arrow.png" class="arrow_img" alt="">
+                            <span>Our Customers</span>
+                        </div>
+                        <div class="backSide">
+                            <div>
+                                <p>Customer Testimonials</p>
+                                <p>Sectors</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg col-md-3">
+                    <div class="bannerMenu_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <a href="#" class="bannerMenu_inner">
+                        <div class="frontSide">
+                            <img src="images/small-arrow.png" class="arrow_img" alt="">
+                            <span>Working At Vistaar</span>
+                        </div>
+                        <div class="backSide">
+                            <div>
+                                <p>Why Vistaar</p>
+                                <p>Employee Speak</p>
+                                <p>Board of Directors</p>
+                                <p>Management Team</p>
+                            </div>
+                        </div>          
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg col-md-3">
+                    <div class="bannerMenu_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
+                        <a href="#" class="bannerMenu_inner">
+                        <div class="frontSide">
+                            <img src="images/small-arrow.png" class="arrow_img" alt="">
+                            <span>Investor Relations</span>
+                        </div>
+                        <div class="backSide">
+                            <div>
+                                <p>Our Investors</p>
+                                <p>Our Lenders</p>
+                                <p>Our Partners</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg col-md-3">
+                    <div class="bannerMenu_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.9s">
+                        <a href="#" class="bannerMenu_inner">
+                        <div class="frontSide">
+                            <img src="images/small-arrow.png" class="arrow_img" alt="">
+                            <span>News</span>
+                        </div>
+                        <div class="backSide">
+                            <div>
+                                <p>Saral Business Sampatti Vyapar Mortgage</p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg col-md-3">
+                    <div class="bannerMenu_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+                        <a href="#" class="bannerMenu_inner">
+                        <div class="frontSide">
+                            <img src="images/small-arrow.png" class="arrow_img" alt="">
+                            <span>Contact</span>
+                        </div>
+                        <div class="backSide">
+                            <div>
+                                <p>Saral Business Sampatti Vyapar Mortgage</p>
+                            </div>
+                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
+            <span class="showMenuBtn" v-bind:class="{ close: menuHidden }" v-on:click="menuHidden = !menuHidden"><img src="images/plus.png" alt=""></span>
         </div>
 </section>
 
@@ -53,8 +172,8 @@
                                 <img src="images/misson_icon.png" class="missionIcon" alt="">
                             </div>
                             <div class="col">
-                                <h2>VISION</h2>
-                                <p>Our Vision is to be catalyst to the underserved so that they can achieve greater economic and social well-being. Specifically we offer a full range of financial services customized to fulfil their every business requirement and move them into the mainstream</p>
+                                <h2>MISSION</h2>
+                                <p>We shall achieve our vision by deeper understanding of specific customer segments, to fulfil their financial needs through customised products and simple processes</p>
                                 <span class="mb-0"></span>
                             </div>
                         </div>

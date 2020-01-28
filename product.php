@@ -2,14 +2,17 @@
 <?php include('includes/navbar.php'); ?>
 
 <section class="product_heroBannerOuter">
-    <div class="owl-carousel productSlider owl-theme">
+    <div class="productSlider">
+        <div class="hero_imageBox slide1"></div>
+    </div>
+    <!-- <div class="owl-carousel productSlider owl-theme">
         <div class="item">
             <div class="hero_imageBox slide1"></div>
         </div>
         <div class="item">
             <div class="hero_imageBox slide2"></div>
         </div>
-    </div>
+    </div> -->
     <div class="hero_outerStrip">
         <div class="container">
             <div class="row">

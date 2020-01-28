@@ -10,12 +10,12 @@ $(document).ready(function(){
     buttonNext: 'Next',
     buttons:   true,
   });
-  $('.productSlider').owlCarousel({
-    loop:true,
-    nav:false,
-    dots:false,
-    items:1
-  });
+  // $('.productSlider').owlCarousel({
+  //   loop:true,
+  //   nav:false,
+  //   dots:false,
+  //   items:1
+  // });
   $('.overviewHero_slider').owlCarousel({
     loop:false,
     nav:false,
