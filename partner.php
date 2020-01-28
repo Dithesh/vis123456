@@ -132,60 +132,202 @@
 </section>
 
 <section class="investors_section">
-    <img src="images/arrow.png" class="arrowImg" alt="">
-    <img src="images/circle.png" class="circle" alt="">
     <div class="container">
-        <div class="row no-gutters">
-            <div class="col-md col-sm-12">
-                <div class="sectionHeading_text investor_title">
-                    <h2>OUR<br>INVESTORS</h2>
-                </div>
-                <div class="partner_logoOuter">
-                    <div class="partner_inner">
-                        <div class="logo_front">
-                            <img src="images/partnerpage/logo-graphic-top.png" class="img-fluid topImg" alt="">
-                            <div class="logo_imgBox">
-                                <img src="images/partnerpage/omidyar.png" alt="">
+        <div class="inverstorInner">
+        <img src="images/arrow.png" class="arrowImg" alt="">
+        <img src="images/circle.png" class="circle" alt="">
+            <div class="row no-gutters">
+                <div class="col-md col-sm-12">
+                    <div class="sectionHeading_text investor_title">
+                        <h2>OUR<br>INVESTORS</h2>
+                    </div>
+                    <div class="partner_logoOuter ml-auto">
+                        <div class="partner_inner">
+                            <div class="logo_front">
+                                <img src="images/partnerpage/logo-graphic-top.png" class="img-fluid topImg" alt="">
+                                <div class="logo_imgBox">
+                                    <img src="images/partnerpage/omidyar.png" alt="">
+                                </div>
+                                <div class="logo_boxFooter">
+                                    <a href="#">VIEW MORE &amp;&amp;<img src="images/partnerpage/view-more.png" alt=""></a>
+                                    <a href="mailto:www.omidyarnetwork.in">www.omidyarnetwork.in</a>
+                                </div>
                             </div>
-                            <div class="logo_boxFooter">
-                                <a href="#">VIEW MORE &amp;&amp;<img src="images/partnerpage/view-more.png" alt=""></a>
-                                <a href="mailto:www.omidyarnetwork.in">www.omidyarnetwork.in</a>
+                            <div class="logo_back">
+                                <img src="images/partnerpage/logo-graphic-top.png" class="img-fluid topImg" alt="">
+                                <div class="logo_backInner">
+                                    <h3>OMIDYAR NETWORK</h3>
+                                    <p>Omidyar Network invests in entrepreneurs who share our commitment to advancing social good at the pace and scale the world needs today. We are focused on five key areas we believe are building blocks for prosperous, stable, and open societies: Consumer Internet and Mobile, Education, Financial Inclusion, Governance & Citizen Engagement, and Property Rights. We take calculated risks in the earliest stages of innovation, helping to transform promising ideas into successful ventures.</p>
+                                    <div class="logo_boxFooter">
+                                        <a href="mailto:www.omidyarnetwork.in">www.omidyarnetwork.in</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="logo_back">
-                            <img src="images/partnerpage/logo-graphic-top.png" class="img-fluid topImg" alt="">
-                            <h3>OMIDYAR NETWORK</h3>
-                            <p>Omidyar Network invests in entrepreneurs who share our commitment to advancing social good at the pace and scale the world needs today. We are focused on five key areas we believe are building blocks for prosperous, stable, and open societies: Consumer Internet and Mobile, Education, Financial Inclusion, Governance & Citizen Engagement, and Property Rights. We take calculated risks in the earliest stages of innovation, helping to transform promising ideas into successful ventures.</p>
+                    </div>
+                    <div class="partner_logoOuter ml-auto">
+                        <div class="partner_inner">
+                            <div class="logo_front">
+                                <img src="images/partnerpage/logo-graphic-top.png" class="img-fluid topImg" alt="">
+                                <div class="logo_imgBox">
+                                    <img src="images/partnerpage/westbridge.png" alt="">
+                                </div>
+                                <div class="logo_boxFooter">
+                                    <a href="#">VIEW MORE &amp;&amp;<img src="images/partnerpage/view-more.png" alt=""></a>
+                                    <a href="mailto:www.omidyarnetwork.in">www.omidyarnetwork.in</a>
+                                </div>
+                            </div>
+                            <div class="logo_back">
+                                <img src="images/partnerpage/logo-graphic-top.png" class="img-fluid topImg" alt="">
+                                <div class="logo_backInner">
+                                    <h3>WestBridge Capital</h3>
+                                    <p>Saama Capital II, is an India focused venture capital fund and is the independent successor fund to SVB India Capital Partners, I ("SICP"). SICP has been successfully investing in Indian companies since 2006 following a collaborative partner driven approach with diversification across stage and sector. Saama Capital invests in exceptional entrepreneurs and ideas to build great companies. Our investments includes names such as Tutorvista, Naaptol, One97 Communications, iYogi, Shriram EPC, Sula Wines, Shaadi.com and Genesis Colors.</p>
+                                </div>
+                                <div class="logo_boxFooter">
+                                    <a href="mailto:www.westbridgecap.com">www.westbridgecap.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-auto col-sm-12">
+                    <div class="partner_logoOuter">
+                        <div class="partner_inner">
+                            <div class="logo_front">
+                                <img src="images/partnerpage/logo-graphic-top.png" class="img-fluid topImg" alt="">
+                                <div class="logo_imgBox">
+                                    <img src="images/partnerpage/elevr.png" alt="">
+                                </div>
+                                <div class="logo_boxFooter">
+                                    <a href="#">VIEW MORE <img src="images/partnerpage/view-more.png" alt=""></a>
+                                    <a href="mailto:www.omidyarnetwork.in">www.elevarequity.com</a>
+                                </div>
+                            </div>
+                            <div class="logo_back">
+                                <img src="images/partnerpage/logo-graphic-top.png" class="img-fluid topImg" alt="">
+                                <div class="logo_backInner">
+                                    <h3>elevar equity</h3>
+                                    <p>Elevar Equity, a human centered venture capital firm, invests in transformative and scalable businesses focused on customers in low income communities primarily in India and Latin America. The Elevar team spends a significant amount of time in the field to obtain ground up insights into the priorities, challenges, spending patterns and aspirations of underserved customers. These insights, when combined with market analysis, have translated into specific investment themes in financial services, education, housing and healthcare. The Elevar Method of investing has democratized the provision of essential services for over 20 million low income customers, catalyzed billions of dollars of capital into 25+ companies led by world-class entrepreneurs and generated outstanding returns for investors.</p>
+                                </div>
+                            </div>
                             <div class="logo_boxFooter">
-                                <a href="mailto:www.omidyarnetwork.in">www.omidyarnetwork.in</a>
+                                <a href="mailto:www.omidyarnetwork.in">www.elevarequity.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="partner_logoOuter">
+                        <div class="partner_inner">
+                            <div class="logo_front">
+                                <img src="images/partnerpage/logo-graphic-top.png" class="img-fluid topImg" alt="">
+                                <div class="logo_imgBox">
+                                    <img src="images/partnerpage/elevr.png" alt="">
+                                </div>
+                                <div class="logo_boxFooter">
+                                    <a href="#">VIEW MORE <img src="images/partnerpage/view-more.png" alt=""></a>
+                                    <a href="mailto:www.omidyarnetwork.in">www.elevarequity.com</a>
+                                </div>
+                            </div>
+                            <div class="logo_back">
+                                <img src="images/partnerpage/logo-graphic-top.png" class="img-fluid topImg" alt="">
+                                <div class="logo_backInner">
+                                    <h3>Saama Capital</h3>
+                                    <p>Saama Capital II, is an India focused venture capital fund and is the independent successor fund to SVB India Capital Partners, I ("SICP"). SICP has been successfully investing in Indian companies since 2006 following a collaborative partner driven approach with diversification across stage and sector. Saama Capital invests in exceptional entrepreneurs and ideas to build great companies. Our investments includes names such as Tutorvista, Naaptol, One97 Communications, iYogi, Shriram EPC, Sula Wines, Shaadi.com and Genesis Colors.</p>
+                                </div>
+                                <div class="logo_boxFooter">
+                                    <a href="mailto:www.saamacapital.vc">www.saamacapital.vc</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-auto col-sm-12">
-                <div class="partner_logoOuter">
-                    <div class="partner_inner">
-                        <div class="logo_front">
-                            <img src="images/partnerpage/logo-graphic-top.png" class="img-fluid topImg" alt="">
-                            <div class="logo_imgBox">
-                                <img src="images/partnerpage/elevr.png" alt="">
-                            </div>
-                            <div class="logo_boxFooter">
-                                <a href="#">VIEW MORE <img src="images/partnerpage/view-more.png" alt=""></a>
-                                <a href="mailto:www.omidyarnetwork.in">www.elevarequity.com</a>
-                            </div>
-                        </div>
-                        <div class="logo_back">
-                            <img src="images/partnerpage/logo-graphic-top.png" class="img-fluid topImg" alt="">
-                            <h3>OMIDYAR NETWORK</h3>
-                            <p>Elevar Equity, a human centered venture capital firm, invests in transformative and scalable businesses focused on customers in low income communities primarily in India and Latin America. The Elevar team spends a significant amount of time in the field to obtain ground up insights into the priorities, challenges, spending patterns and aspirations of underserved customers. These insights, when combined with market analysis, have translated into specific investment themes in financial services, education, housing and healthcare. The Elevar Method of investing has democratized the provision of essential services for over 20 million low income customers, catalyzed billions of dollars of capital into 25+ companies led by world-class entrepreneurs and generated outstanding returns for investors.</p>
-                            <div class="logo_boxFooter">
-                                <a href="mailto:www.omidyarnetwork.in">www.elevarequity.com</a>
-                            </div>
-                        </div>
+        </div>
+    </div>
+</section>
+
+<section class="lenders_section">
+    <div class="container">
+        <div class="leander_inner">
+            <div class="sectionHeading_text leanders_title">
+                <h2>OUR<br>Lenders</h2>
+            </div>
+            <div class="laenders_sliderOuter">
+            <div class="owl-carousel owl-theme lender_slider">
+                <div class="item">
+                    <div class="lender_slide_box">
+                        <img src="images/partnerpage/logo_axis.png" alt="">
                     </div>
                 </div>
+                <div class="item">
+                    <div class="lender_slide_box">
+                        <img src="images/partnerpage/icici-logo.png" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="lender_slide_box">
+                        <img src="images/partnerpage/hdfc-logo.png" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="lender_slide_box">
+                        <img src="images/partnerpage/union-logo.png" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="lender_slide_box">
+                        <img src="images/partnerpage/blogo.png" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="lender_slide_box">
+                        <img src="images/partnerpage/logo_axis.png" alt="">
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="partner_section">
+    <div class="container">
+        <div class="partner_inner">
+            <div class="sectionHeading_text partner_title">
+                <h2>OUR<br>Lenders</h2>
+            </div>
+            <div class="partner_sliderOuter">
+            <div class="owl-carousel owl-theme partner_sliderSlideBox">
+                <div class="item">
+                    <div class="partner_slide_box">
+                        <img src="images/partnerpage/r-logo.png" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="partner_slide_box">
+                        <img src="images/partnerpage/spot-logo.png" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="partner_slide_box">
+                        <img src="images/partnerpage/spot-logo.png" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="partner_slide_box">
+                        <img src="images/partnerpage/indus-logo.png" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="partner_slide_box">
+                        <img src="images/partnerpage/naobi-logo.png" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="partner_slide_box">
+                        <img src="images/partnerpage/logo_axis.png" alt="">
+                    </div>
+                </div>
+            </div>
             </div>
         </div>
     </div>
