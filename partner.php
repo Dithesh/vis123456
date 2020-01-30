@@ -139,9 +139,9 @@
             <div class="row no-gutters">
                 <div class="col-md col-sm-12">
                     <div class="sectionHeading_text investor_title">
-                        <h2>OUR<br>INVESTORS</h2>
+                        <h2 class="no_visible wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".1s">OUR<br>INVESTORS</h2>
                     </div>
-                    <div class="partner_logoOuter ml-auto">
+                    <div class="partner_logoOuter ml-auto no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
                         <div class="partner_inner">
                             <div class="logo_front">
                                 <img src="images/partnerpage/logo-graphic-top.png" class="img-fluid topImg" alt="">
@@ -165,7 +165,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="partner_logoOuter ml-auto">
+                    <div class="partner_logoOuter ml-auto no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s">
                         <div class="partner_inner">
                             <div class="logo_front">
                                 <img src="images/partnerpage/logo-graphic-top.png" class="img-fluid topImg" alt="">
@@ -191,7 +191,7 @@
                     </div>
                 </div>
                 <div class="col-md-auto col-sm-12">
-                    <div class="partner_logoOuter">
+                    <div class="partner_logoOuter no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
                         <div class="partner_inner">
                             <div class="logo_front">
                                 <img src="images/partnerpage/logo-graphic-top.png" class="img-fluid topImg" alt="">
@@ -215,7 +215,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="partner_logoOuter">
+                    <div class="partner_logoOuter no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                         <div class="partner_inner">
                             <div class="logo_front">
                                 <img src="images/partnerpage/logo-graphic-top.png" class="img-fluid topImg" alt="">
@@ -249,37 +249,43 @@
     <div class="container">
         <div class="leander_inner">
             <div class="sectionHeading_text leanders_title">
-                <h2>OUR<br>Lenders</h2>
+                <h2 class="no_visible wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".1s">OUR<br>LENDERS</h2>
             </div>
             <div class="laenders_sliderOuter">
             <div class="owl-carousel owl-theme lender_slider">
                 <div class="item">
-                    <div class="lender_slide_box">
-                        <img src="images/partnerpage/logo_axis.png" alt="">
+                    <div class="lender_slide_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                        <img src="images/circle.png" class="floatImg" style="bottom:60px; left:30%;" alt="">
+                        <img class="img1" src="images/partnerpage/logo_axis.png" alt="">
+                        <img class="img2" src="images/partnerpage/logo_axis1.png" alt="">
                     </div>
                 </div>
                 <div class="item">
-                    <div class="lender_slide_box">
-                        <img src="images/partnerpage/icici-logo.png" alt="">
+                    <div class="lender_slide_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                        <img class="img1" src="images/partnerpage/icici-logo1.png" alt="">
+                        <img class="img2" src="images/partnerpage/icici-logo.png" alt="">
                     </div>
                 </div>
                 <div class="item">
-                    <div class="lender_slide_box">
+                    <div class="lender_slide_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s">
+                        <img src="images/arrow-back.png" class="floatImg" style="top:65px; left:25%;" alt="">    
                         <img src="images/partnerpage/hdfc-logo.png" alt="">
                     </div>
                 </div>
                 <div class="item">
-                    <div class="lender_slide_box">
+                    <div class="lender_slide_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay=".9s">
+                        <img src="images/circle.png" class="floatImg" style="bottom:60px; left:35%;" alt="">
                         <img src="images/partnerpage/union-logo.png" alt="">
                     </div>
                 </div>
                 <div class="item">
-                    <div class="lender_slide_box">
+                    <div class="lender_slide_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+                        <img src="images/arrow-back.png" class="floatImg" style="top:65px; right:20%;" alt="">
                         <img src="images/partnerpage/blogo.png" alt="">
                     </div>
                 </div>
                 <div class="item">
-                    <div class="lender_slide_box">
+                    <div class="lender_slide_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s">
                         <img src="images/partnerpage/logo_axis.png" alt="">
                     </div>
                 </div>
@@ -293,37 +299,37 @@
     <div class="container">
         <div class="partner_inner">
             <div class="sectionHeading_text partner_title">
-                <h2>OUR<br>Lenders</h2>
+                <h2 class="no_visible wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".1s">OUR<br>PARTNERS</h2>
             </div>
             <div class="partner_sliderOuter">
             <div class="owl-carousel owl-theme partner_sliderSlideBox">
                 <div class="item">
-                    <div class="partner_slide_box">
+                    <div class="partner_slide_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s">
                         <img src="images/partnerpage/r-logo.png" alt="">
                     </div>
                 </div>
                 <div class="item">
-                    <div class="partner_slide_box">
+                    <div class="partner_slide_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                         <img src="images/partnerpage/spot-logo.png" alt="">
                     </div>
                 </div>
                 <div class="item">
-                    <div class="partner_slide_box">
+                    <div class="partner_slide_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
                         <img src="images/partnerpage/spot-logo.png" alt="">
                     </div>
                 </div>
                 <div class="item">
-                    <div class="partner_slide_box">
+                    <div class="partner_slide_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
                         <img src="images/partnerpage/indus-logo.png" alt="">
                     </div>
                 </div>
                 <div class="item">
-                    <div class="partner_slide_box">
+                    <div class="partner_slide_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.9s">
                         <img src="images/partnerpage/naobi-logo.png" alt="">
                     </div>
                 </div>
                 <div class="item">
-                    <div class="partner_slide_box">
+                    <div class="partner_slide_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s">
                         <img src="images/partnerpage/logo_axis.png" alt="">
                     </div>
                 </div>

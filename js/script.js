@@ -18,7 +18,7 @@ $(document).ready(function(){
   // });
   $('.lender_slider').owlCarousel({
     loop:true,
-    margin:15,
+    margin:0,
     nav:true,
     autoplay:true,
     dots:false,
@@ -36,8 +36,26 @@ $(document).ready(function(){
 });
 $('.partner_sliderSlideBox').owlCarousel({
   loop:true,
-  margin:10,
+  margin:0,
   nav:true,
+  autoplay:true,
+  dots:false,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:3
+      },
+      1000:{
+          items:5
+      }
+  }
+});
+$('.sector_sliderSlideBox').owlCarousel({
+  loop:true,
+  margin:0,
+  nav:false,
   autoplay:true,
   dots:false,
   responsive:{
