@@ -6,16 +6,21 @@ $(document).ready(function(){
   fixedNavbarHandle();
   // portfolioSvg();
   $('.parsonCarosal_slider').flipster({
+    style: 'carousel', 
+    start: 0,
     buttonPrev: 'Previous',
     buttonNext: 'Next',
-    buttons:   true,
+    buttons:true,
+    // loop:true,
+    // // style: 'carousel',
+    // scrollwheel: false,
   });
-  // $('.productSlider').owlCarousel({
-  //   loop:true,
-  //   nav:false,
-  //   dots:false,
-  //   items:1
-  // });
+  $('.cultureSlider').owlCarousel({
+    loop:true,
+    nav:false,
+    dots:false,
+    items:1
+  });
   $('.lender_slider').owlCarousel({
     loop:true,
     margin:0,

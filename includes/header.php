@@ -25,10 +25,11 @@
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <!-- <link rel="stylesheet" type="text/css" href="css/jquery.simplyscroll.css"> -->
     <!-- google font -->
-    <link rel="stylesheet" type="text/css" href="css/jquery.flipster.min.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.flipster.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     
     <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="js/vue.js" crossorigin="anonymous"></script>
     <title>Vistaar</title>
 </head>
 <body>

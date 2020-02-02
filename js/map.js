@@ -81,50 +81,44 @@ new Vue({
             
         ],
         initialIndex: 0,
-        selectedSate: null
+        selectedSate: null,
     },
     created: function(){
         this.selectedSate = this.stateList[this.initialIndex];
     },
     mounted: function() {
         let self=this;
-        let intervalPicker = setInterval(function($event){
-            self.homePageSlide=self.homePageSlide+1;
-            if(self.homePageSlide == 4){
-                clearInterval(intervalPicker);
-                setTimeout(()=>{
-                    
-                $('.owl-carousel').owlCarousel({
-                    loop:true,
-                    nav:false,
-                    dots:true,
-                    items:1
-                  });
-                  $('.hero_slider').owlCarousel({
-                    animateOut: 'fadeOut',
-                    loop:true,
-                    nav:false,
-                    dots:true,
-                    autoplay:true,
-                    autoplayTimeout:3000,
-                    items:1,
-                    
-                  });
-                //   $('.counterNumber').each(function () {
-                //     $(this).prop('Counter',0).animate({
-                //         Counter: $(this).text()
-                //     }, {
-                //         duration: 4000,
-                //         easing: 'swing',
-                //         step: function (now) {
-                //             $(this).text(Math.ceil(now));
-                //         }
-                //     });
-                //   });
-                }, 50)
-            }
-        }, 3000);
+        let loaded = window.localStorage.getItem('loaded');
         
+            let intervalPicker = setInterval(function($event){
+                self.homePageSlide=self.homePageSlide+1;
+                if(loaded < 1){
+                    self.homePageSlide = 4;
+                }
+                if(self.homePageSlide == 4){
+                    clearInterval(intervalPicker);
+                    setTimeout(()=>{
+                        
+                    $('.footTestimonial').owlCarousel({
+                        loop:true,
+                        nav:false,
+                        dots:true,
+                        items:1
+                    });
+                    $('.hero_slider').owlCarousel({
+                        animateOut: 'fadeOut',
+                        loop:true,
+                        nav:false,
+                        dots:true,
+                        autoplay:true,
+                        autoplayTimeout:3000,
+                        items:1,
+                        
+                    });
+                    }, 50)
+                    window.localStorage.setItem('loaded', '1');
+                }
+            }, 3000);
     },
     methods: {
         changeIndex: function(index) {

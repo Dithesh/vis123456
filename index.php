@@ -100,7 +100,7 @@
             </div>
             <div class="col-lg col-md-3">
                 <div class="bannerMenu_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.3s">
-                    <a href="partner.php" class="bannerMenu_inner">
+                    <a href="testimonial.php" class="bannerMenu_inner">
                     <div class="frontSide">
                         <img src="images/small-arrow.png" class="arrow_img" alt="">
                         <span>Our Customers</span>
@@ -134,7 +134,7 @@
             </div>
             <div class="col-lg col-md-3">
                 <div class="bannerMenu_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.7s">
-                    <a href="#" class="bannerMenu_inner">
+                    <a href="partner.php" class="bannerMenu_inner">
                     <div class="frontSide">
                         <img src="images/small-arrow.png" class="arrow_img" alt="">
                         <span>Investor Relations</span>
@@ -394,6 +394,7 @@
 <?php include('includes/footertop.php'); ?>
 </span>
 </span>
+<script src="js/map.js"></script>
 <?php include('includes/footer.php'); ?>
     
     

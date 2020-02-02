@@ -3,7 +3,7 @@
         <span class="bottomShadow"></span>
         <div class="testimonial_inner">
             <h3>NEWS & UPDATES</h3>
-            <div class="owl-carousel testimonialOuter owl-theme">
+            <div class="owl-carousel footTestimonial testimonialOuter owl-theme">
                 <div class="item testimonials">
                     <div class="row">
                         <div class="col-sm-3">

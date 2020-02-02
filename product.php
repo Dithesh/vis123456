@@ -278,4 +278,5 @@
     <?php include('includes/footermenu.php'); ?>
 </section>
 <?php include('includes/footertop.php'); ?>
+<script src="js/product.js"></script>
 <?php include('includes/footer.php'); ?>
