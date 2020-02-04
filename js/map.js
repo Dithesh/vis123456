@@ -88,37 +88,57 @@ new Vue({
     },
     mounted: function() {
         let self=this;
-        let loaded = window.localStorage.getItem('loaded');
         
-            let intervalPicker = setInterval(function($event){
-                self.homePageSlide=self.homePageSlide+1;
-                if(loaded < 1){
-                    self.homePageSlide = 4;
-                }
-                if(self.homePageSlide == 4){
-                    clearInterval(intervalPicker);
-                    setTimeout(()=>{
-                        
-                    $('.footTestimonial').owlCarousel({
-                        loop:true,
-                        nav:false,
-                        dots:true,
-                        items:1
-                    });
-                    $('.hero_slider').owlCarousel({
-                        animateOut: 'fadeOut',
-                        loop:true,
-                        nav:false,
-                        dots:true,
-                        autoplay:true,
-                        autoplayTimeout:3000,
-                        items:1,
-                        
-                    });
-                    }, 50)
-                    window.localStorage.setItem('loaded', '1');
-                }
-            }, 3000);
+            if(localStorage.getItem('loaded') == '1'){
+                self.homePageSlide = 4;
+                setTimeout(()=>{
+                    
+                $('.footTestimonial').owlCarousel({
+                    loop:true,
+                    nav:false,
+                    dots:true,
+                    items:1
+                });
+                $('.hero_slider').owlCarousel({
+                    animateOut: 'fadeOut',
+                    loop:true,
+                    nav:false,
+                    dots:true,
+                    autoplay:true,
+                    autoplayTimeout:3000,
+                    items:1,
+                    
+                });
+                }, 50)
+            }else {
+                let intervalPicker = setInterval(function($event){
+                    self.homePageSlide=self.homePageSlide+1;
+                    
+                    if(self.homePageSlide == 4){
+                        localStorage.setItem('loaded', '1');
+                        clearInterval(intervalPicker);
+                        setTimeout(()=>{
+                            
+                        $('.footTestimonial').owlCarousel({
+                            loop:true,
+                            nav:false,
+                            dots:true,
+                            items:1
+                        });
+                        $('.hero_slider').owlCarousel({
+                            animateOut: 'fadeOut',
+                            loop:true,
+                            nav:false,
+                            dots:true,
+                            autoplay:true,
+                            autoplayTimeout:3000,
+                            items:1,
+                            
+                        });
+                        }, 50)
+                    }
+                }, 3000);
+            }
     },
     methods: {
         changeIndex: function(index) {
