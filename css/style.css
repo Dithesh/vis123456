@@ -43,6 +43,23 @@
   font-weight: 100;
   src: url("Gotham-XLight.otf") format("otf"); }
 
+.flipster-carousel .flip-item .flip-content:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -26px;
+  z-index: 1;
+  height: 19px;
+  background-image: url("../images/shadow.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%; }
+
+.flipster-carousel .flip-item .flip-content .parsonCarosalBox {
+  -webkit-filter: blur(2px);
+  filter: blur(2px); }
+
 .flipster-carousel .flip-current .flip-content {
   position: relative;
   z-index: 2; }
@@ -55,18 +72,9 @@
     z-index: -1;
     height: calc(100% - 150px);
     box-shadow: 0px 0px 40px 20px black; }
-
-.flipster-carousel .flip-item .flip-content:after {
-  content: "";
-  position: absolute;
-  width: 50%;
-  left: 25%;
-  bottom: -26px;
-  z-index: 1;
-  height: 2px;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 50%;
-  box-shadow: 0px 0px 20px 15px rgba(0, 0, 0, 0.6); }
+  .flipster-carousel .flip-current .flip-content .parsonCarosalBox {
+    -webkit-filter: blur(0);
+    filter: blur(0); }
 
 html, body {
   margin: 0;
@@ -1098,12 +1106,12 @@ html, body {
       -ms-transform: translateY(-50%);
       transform: translateY(-50%); }
       .product_heroBannerOuter .hero_outerStrip .container h5 {
-        font-size: 1.8rem;
+        font-size: 1.9rem;
         font-weight: 600;
         color: #fff;
         margin-bottom: 20px; }
       .product_heroBannerOuter .hero_outerStrip .container p {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         font-weight: 300;
         margin-bottom: 0px;
         color: #fff; }
@@ -1213,45 +1221,19 @@ html, body {
       font-size: 1.2rem; }
   .solutions_section .solutionsInner .parsonCarosal {
     margin-top: 30px; }
-    .solutions_section .solutionsInner .parsonCarosal .parsonCarosal_slider .flipster__button svg {
-      width: 1em; }
+    .solutions_section .solutionsInner .parsonCarosal .parsonCarosal_slider .flipto-prev {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 20%; }
+    .solutions_section .solutionsInner .parsonCarosal .parsonCarosal_slider .flipto-next {
+      position: absolute;
+      transform: translateY(-50%);
+      top: 50%;
+      right: 20%; }
     .solutions_section .solutionsInner .parsonCarosal .parsonCarosal_slider .parsonCarosalBox {
-      border: 8px solid #fff;
-      border-radius: 15px;
       display: inline-block;
-      width: 250px; }
-      .solutions_section .solutionsInner .parsonCarosal .parsonCarosal_slider .parsonCarosalBox .index_span {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        font-family: 'Evogria', sans-serif;
-        font-size: 1.8rem;
-        color: #fff;
-        display: inline-block; }
-      .solutions_section .solutionsInner .parsonCarosal .parsonCarosal_slider .parsonCarosalBox .carousel-caption {
-        color: #fff; }
-        .solutions_section .solutionsInner .parsonCarosal .parsonCarosal_slider .parsonCarosalBox .carousel-caption p {
-          font-size: 1.4rem;
-          font-weight: 500;
-          margin-bottom: 0px; }
-        .solutions_section .solutionsInner .parsonCarosal .parsonCarosal_slider .parsonCarosalBox .carousel-caption h1 {
-          font-family: 'Evogria', sans-serif;
-          font-size: 4.5rem;
-          margin-bottom: 0px;
-          line-height: 47px;
-          letter-spacing: -3px;
-          text-shadow: 0px 2px 12px rgba(0, 0, 0, 0.8); }
-          .solutions_section .solutionsInner .parsonCarosal .parsonCarosal_slider .parsonCarosalBox .carousel-caption h1 span {
-            font-size: 2.5rem;
-            display: inline-block;
-            line-height: 54px; }
-        .solutions_section .solutionsInner .parsonCarosal .parsonCarosal_slider .parsonCarosalBox .carousel-caption h2 {
-          font-family: 'Evogria', sans-serif;
-          font-size: 2.2rem;
-          line-height: 1;
-          margin-top: -9px;
-          margin-bottom: 0px;
-          text-shadow: 0px 2px 12px rgba(0, 0, 0, 0.8); }
+      width: 260px; }
   .solutions_section .arrowImg-flot {
     position: absolute;
     width: 30px;
@@ -1281,6 +1263,7 @@ html, body {
       font-size: 3.9rem;
       margin-bottom: 55px;
       position: relative;
+      text-transform: uppercase;
       color: #fff;
       display: inline-block; }
       .creaditSection .creadit_innerSection .creaditDetailInner h2:before {
@@ -1366,6 +1349,7 @@ html, body {
             font-weight: 600;
             margin-bottom: 20px;
             font-size: 3rem;
+            text-transform: uppercase;
             color: #fff; }
             .creaditSection .creadit_innerSection .unique_methodBox .center_imgBox .flotTextBox h2 span {
               position: relative;
@@ -1436,6 +1420,7 @@ html, body {
       font-size: 3.9rem;
       margin-bottom: 10px;
       position: relative;
+      text-transform: uppercase;
       color: #fff;
       display: inline-block; }
       .mission_visionSection .vision_inner .sectionTitleBox h2:before {
@@ -1474,6 +1459,7 @@ html, body {
       .mission_visionSection .vision_inner .dateBox h2 {
         font-family: 'Evogria', sans-serif;
         font-size: 3.6rem;
+        text-transform: uppercase;
         color: #fff; }
       .mission_visionSection .vision_inner .dateBox p {
         font-size: 1.3rem;
@@ -1493,6 +1479,7 @@ html, body {
       font-family: 'Evogria', sans-serif;
       font-size: 2.4rem;
       color: #fff;
+      text-transform: uppercase;
       margin-bottom: 8px; }
     .mission_visionSection .missionVissionBox p {
       font-size: 1.2rem;
@@ -1572,7 +1559,8 @@ html, body {
         font-size: 2.2rem;
         line-height: 1;
         margin-bottom: 20px;
-        font-family: 'Evogria', sans-serif; }
+        font-family: 'Evogria', sans-serif;
+        text-transform: uppercase; }
       .core_values .coreValue_inner .coureValueBox p {
         font-size: 1.2rem;
         margin-bottom: 0px; }
@@ -1582,6 +1570,7 @@ html, body {
         bottom: 15px;
         left: 15px;
         font-family: 'Evogria', sans-serif;
+        text-transform: uppercase;
         font-size: 1.8rem; }
       .core_values .coreValue_inner .coureValueBox.blue {
         background-color: #0002c2;
@@ -1700,6 +1689,7 @@ html, body {
         padding: 10px;
         font-family: 'Evogria', sans-serif;
         font-size: 1.8rem;
+        text-transform: uppercase;
         background-color: #0095ff;
         color: #0000b8; }
       .principles .principles_inner .principleBox:hover {
@@ -1750,6 +1740,7 @@ html, body {
       opacity: 0;
       font-family: 'Evogria', sans-serif;
       animation-delay: 1.8s;
+      text-transform: uppercase;
       animation-duration: 1s;
       animation-fill-mode: forwards; }
     .partner_slider .partnerSliderBox .partnerSliderText h1 {
@@ -1758,6 +1749,7 @@ html, body {
       margin-bottom: 0px;
       opacity: 0;
       font-family: 'Evogria', sans-serif;
+      text-transform: uppercase;
       animation-delay: 1.4s;
       animation-duration: 1s;
       animation-fill-mode: forwards; }
@@ -1876,6 +1868,7 @@ html, body {
             font-family: 'Evogria', sans-serif;
             font-size: 2rem;
             font-weight: 600;
+            text-transform: uppercase;
             margin-bottom: 15px;
             color: #fff; }
           .investors_section .partner_logoOuter .partner_inner .logo_back .logo_backInner p {
@@ -2145,7 +2138,8 @@ html, body {
           margin-bottom: 0px;
           text-transform: uppercase;
           font-family: 'Evogria', sans-serif;
-          margin-bottom: -22px; }
+          margin-bottom: -22px;
+          text-transform: uppercase; }
       .testimonialPage_section .testimonial_slideOuter .testimonial_col .tstimonialDetail .tstimonialDetail_left {
         display: none;
         width: 50%; }

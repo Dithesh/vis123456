@@ -170,35 +170,35 @@
                         <ul> 
                             <li>
                                 <div class="parsonCarosalBox">
-                                    <span class="index_span">03</span>
+                                    <!-- <span class="index_span">03</span> -->
                                     <img class="carousel-image" alt="Image Caption" src="images/slide_img1.png"></a>
-                                    <div class="carousel-caption">
+                                    <!-- <div class="carousel-caption">
                                         <p>BUSINESS LOAN</p>
                                         <h1>2 <span>To</span> 10</h1>
                                         <h2>Lakhs</h2>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </li>
                             <li>
                                 <div class="parsonCarosalBox">
-                                    <span class="index_span">01</span>
-                                    <img class="carousel-image" alt="Image Caption" src="images/slide_img1.png"></a>
-                                    <div class="carousel-caption">
+                                    <!-- <span class="index_span">01</span> -->
+                                    <img class="carousel-image" alt="Image Caption" src="images/slide_img2.png"></a>
+                                    <!-- <div class="carousel-caption">
                                         <p>BUSINESS LOAN</p>
                                         <h1>2 <span>To</span> 50</h1>
                                         <h2>Lakhs</h2>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </li>
                             <li>
                                 <div class="parsonCarosalBox">
-                                    <span class="index_span">02</span>
-                                    <img class="carousel-image" alt="Image Caption" src="images/slide_img1.png"></a>
-                                    <div class="carousel-caption">
+                                    <!-- <span class="index_span">02</span> -->
+                                    <img class="carousel-image" alt="Image Caption" src="images/slide_img3.png"></a>
+                                    <!-- <div class="carousel-caption">
                                         <p>BUSINESS LOAN</p>
                                         <h1>2 <span>To</span> 60</h1>
                                         <h2>Lakhs</h2>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </li>
                         </ul>
@@ -208,7 +208,7 @@
             <div class="col-lg-3 col-md-6 col-12 align-self-center">
                 <div class="apply_LoanBox wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.2s">
                     <span>End Use:</span>
-                    <p>Working capital requirements, Asset purchase, Investment, Business expansion, DebtConsolidation.</p>
+                    <p>Working capital requirements, Asset purchase, Investment, Business expansion, Debt Consolidation.</p>
                     <a href="#" class="btn loan_btn rounded-pill"><img src="images/play_arrow.png" alt="play image" class="mr-2"> Apply For Loan</a>
                 </div>
                 

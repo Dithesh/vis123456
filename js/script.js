@@ -8,9 +8,11 @@ $(document).ready(function(){
   $('.parsonCarosal_slider').flipster({
     style: 'carousel', 
     start: 0,
-    buttonPrev: 'Previous',
-    buttonNext: 'Next',
-    buttons:true,
+    prevText: "<img src='images/prev-arrow.png'>",
+    nextText: "<img src='images/next-arrow.png'>",
+    enableNavButtons:true,
+    autoplay:true,
+    onItemSwitch:callslide,
     // loop:true,
     // // style: 'carousel',
     // scrollwheel: false,
@@ -92,6 +94,10 @@ $(document).scroll(function () {
   fixedNavbarHandle();
   checkViewport();
 });
+function callslide(event){
+  console.log(event,'hii');
+  
+}
 
 function checkViewport(){
   if ($('.circleBox1').visible(true)) {
