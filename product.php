@@ -3,7 +3,7 @@
 
 <section class="product_heroBannerOuter">
     <div class="productSlider">
-        <div class="hero_imageBox slide1"></div>
+        <div class="hero_imageBox productSlideBg"></div>
     </div>
     <!-- <div class="owl-carousel productSlider owl-theme">
         <div class="item">

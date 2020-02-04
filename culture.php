@@ -65,7 +65,7 @@
                 </div>
                 <div class="col-lg col-md-3">
                     <div class="bannerMenu_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <a href="#" class="bannerMenu_inner">
+                        <a href="culture.php" class="bannerMenu_inner">
                         <div class="frontSide">
                             <img src="images/small-arrow.png" class="arrow_img" alt="">
                             <span>Working At Vistaar</span>
@@ -137,13 +137,13 @@
 <section class="whyvistarSection">
     <div class="container">
         <div class="cultureInner whyVisitInner">
-            <h4>If you are young and ambitious with a passion to excel Vistaar welcomes you to be a part of our growth journey.</h4>
+            <h4 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">If you are young and ambitious with a passion to excel Vistaar welcomes you to be a part of our growth journey.</h4>
             <div class="title_box">
                 <h2 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1.1s">Why Vistaar</h2>
             </div>
-            <div class="vistarPoints row justify-content-between">
+            <div class="vistarPoints mt-4 row justify-content-between">
                 <div class="col-xl-auto col-lg-2">
-                    <div class="vistarPointBox">
+                    <div class="vistarPointBox wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
                         <div class="iconBox">
                             <img src="images/culture/icon1.png" class="img-fluid" alt="">
                         </div>
@@ -151,7 +151,7 @@
                     </div>
                 </div>
                 <div class="col-xl-auto col-lg-2">
-                    <div class="vistarPointBox">
+                    <div class="vistarPointBox wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.2s">
                         <div class="iconBox">
                             <img src="images/culture/icon2.png" class="img-fluid" alt="">
                         </div>
@@ -159,7 +159,7 @@
                     </div>
                 </div>
                 <div class="col-xl-auto col-lg-2">
-                    <div class="vistarPointBox">
+                    <div class="vistarPointBox wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.4s">
                         <div class="iconBox">
                             <img src="images/culture/icon3.png" class="img-fluid" alt="">
                         </div>
@@ -167,7 +167,7 @@
                     </div>
                 </div>
                 <div class="col-xl-auto col-lg-2">
-                    <div class="vistarPointBox">
+                    <div class="vistarPointBox wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.6s">
                         <div class="iconBox">
                             <img src="images/culture/icon4.png" class="img-fluid" alt="">
                         </div>
@@ -175,7 +175,7 @@
                     </div>
                 </div>
                 <div class="col-xl-auto col-lg-2">
-                    <div class="vistarPointBox">
+                    <div class="vistarPointBox wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.8s">
                         <div class="iconBox">
                             <img src="images/culture/icon5.png" class="img-fluid" alt="">
                         </div>
@@ -183,7 +183,7 @@
                     </div>
                 </div>
                 <div class="col-xl-auto col-lg-2">
-                    <div class="vistarPointBox">
+                    <div class="vistarPointBox wow fadeInUp" data-wow-duration="1s" data-wow-delay="2s">
                         <div class="iconBox">
                             <img src="images/culture/icon6.png" class="img-fluid" alt="">
                         </div>
@@ -193,6 +193,49 @@
             </div>
         </div>
     </div>
+</section>
+
+<section class="employespeek_section">
+    <img src="images/arrow.png" class="position-absolute" style="width:20px; left:45%; top:15%;" alt="">
+    <img src="images/circle.png" class="position-absolute" style="width:15px; right:20%; top:17%" alt="">
+    <div class="container">
+        <div class="cultureInner employeSpeek">
+            <div class="title_box">
+                <h2 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1.1s">EMPLOYEE SPEAK</h2>
+            </div>
+
+            <div class="employee_slider owl-carousel owl-theme">
+                <div class="item">
+                    <div class="employeeSlideBox">
+                        <img src="images/culture/employe.png" class="img-fluid" alt="">
+                        <h3>Sachin Pattanshetti</h3>
+                        <p>Credit Manager – Chikkodi</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="employeeSlideBox">
+                        <img src="images/culture/employe2.png" class="img-fluid" alt="">
+                        <h3>Anita Shetty</h3>
+                        <p>Credit Manager – Chikkodi</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="employeeSlideBox">
+                        <img src="images/culture/employe3.png" class="img-fluid" alt="">
+                        <h3>Ganesh Gajare</h3>
+                        <p>Credit Manager – Chikkodi</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="employeeSlideBox">
+                        <img src="images/culture/employe3.png" class="img-fluid" alt="">
+                        <h3>Ganesh Gajare</h3>
+                        <p>Credit Manager – Chikkodi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
 </section>
 
 <section class="footerTop_section">

@@ -1075,17 +1075,38 @@ html, body {
   to {
     stroke-dashoffset: 520; } }
 
+@-webkit-keyframes bgzoom {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.5); }
+  100% {
+    transform: scale(1); } }
+
+@keyframes bgzoom {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(1.2); }
+  100% {
+    transform: scale(1); } }
+
 .product_heroBannerOuter {
   position: relative; }
-  .product_heroBannerOuter .productSlider .hero_imageBox {
+  .product_heroBannerOuter .productSlider .hero_imageBox.productSlideBg {
     min-height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; }
-    .product_heroBannerOuter .productSlider .hero_imageBox.slide1 {
-      background-image: url("../images/Product-Banner.png"); }
-    .product_heroBannerOuter .productSlider .hero_imageBox.slide2 {
-      background-image: url("../images/Product-Banner.png"); }
+    overflow: hidden;
+    position: relative; }
+    .product_heroBannerOuter .productSlider .hero_imageBox.productSlideBg:after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("../images/Product-Banner.png");
+      animation: bgzoom 20s infinite; }
   .product_heroBannerOuter .hero_outerStrip {
     height: 100%;
     width: 100%;
@@ -2420,33 +2441,79 @@ html, body {
       bottom: -15px; }
 
 .whyvistarSection {
-  padding: 50px 0px 100px;
+  padding: 70px 0px 100px;
   background-color: #428efe;
-  background-image: url("../images/culture/dots1.png"), url("../images/culture/dotes.png");
-  background-position: 15px 15px, 80% 50px;
+  background-image: url("../images/culture/dots1.png"), url("../images/culture/dotes.png"), url("../images/culture/graphic.png");
+  background-position: 35px 35px, 80% 50px, 100% 0px;
   background-repeat: no-repeat;
-  background-size: 40%, 100px; }
+  background-size: 40%, 100px, 730px; }
   .whyvistarSection .whyVisitInner h4 {
-    font-size: 2.2rem;
+    font-size: 2.6rem;
     color: #fff;
     font-weight: 500;
-    margin-bottom: 40px;
-    width: 700px;
+    line-height: 1.4;
+    margin-bottom: 60px;
+    width: 620px;
     max-width: 100%; }
   .whyvistarSection .vistarPoints .vistarPointBox {
-    width: 110px; }
+    width: 115px; }
     .whyvistarSection .vistarPoints .vistarPointBox .iconBox {
       width: 80px;
       height: 80px;
       background-color: #fff;
+      background-image: none;
+      background-position: center;
+      background-size: cover;
       padding: 20px;
       display: flex;
       align-items: center;
       justify-content: center;
-      border-radius: 15px;
-      margin-bottom: 15px; }
+      border-radius: 28px;
+      margin-bottom: 15px;
+      -webkit-transition: .3s ease-in-out;
+      -moz-transition: .3s ease-in-out;
+      -ms-transition: .3s ease-in-out;
+      transition: .3s ease-in-out; }
     .whyvistarSection .vistarPoints .vistarPointBox p {
       font-size: 1.2rem;
       font-weight: 500;
       color: #fff;
       margin-bottom: 0px; }
+    .whyvistarSection .vistarPoints .vistarPointBox:hover .iconBox {
+      background-color: #ffa222;
+      background-image: url("../images/culture/hover1.png"); }
+
+.employespeek_section {
+  background-color: #1d1ddc;
+  padding: 50px 0px 80px;
+  background-image: url("../images/culture/blue-dots.png"), url("../images/culture/blue-dots-small.png"), url("../images/culture/graphic.png");
+  background-position: 15% 115px, 6% 80%, 100% -630px;
+  background-repeat: no-repeat;
+  background-size: 40%, 55px, 730px;
+  position: relative; }
+  .employespeek_section .employeSpeek .employee_slider {
+    margin-top: 20px; }
+    .employespeek_section .employeSpeek .employee_slider .employeeSlideBox {
+      text-align: center; }
+      .employespeek_section .employeSpeek .employee_slider .employeeSlideBox h3 {
+        font-size: 2rem;
+        font-weight: 600;
+        color: #0728dc;
+        background-color: #fff;
+        margin-bottom: 10px;
+        padding: 15px 10px;
+        border-radius: 8px; }
+      .employespeek_section .employeSpeek .employee_slider .employeeSlideBox p {
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 0px; }
+    .employespeek_section .employeSpeek .employee_slider .owl-dots .owl-dot span {
+      width: 10px;
+      height: 10px;
+      background: transparent;
+      border: 1px solid #fff;
+      border-radius: 100%;
+      margin: 4px; }
+    .employespeek_section .employeSpeek .employee_slider .owl-dots .owl-dot.active span {
+      background-color: #fff; }

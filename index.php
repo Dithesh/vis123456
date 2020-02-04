@@ -116,7 +116,7 @@
             </div>
             <div class="col-lg col-md-3">
                 <div class="bannerMenu_box no_visible wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">
-                    <a href="#" class="bannerMenu_inner">
+                    <a href="culture.php" class="bannerMenu_inner">
                     <div class="frontSide">
                         <img src="images/small-arrow.png" class="arrow_img" alt="">
                         <span>Working At Vistaar</span>

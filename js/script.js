@@ -12,6 +12,7 @@ $(document).ready(function(){
     nextText: "<img src='images/next-arrow.png'>",
     enableNavButtons:true,
     autoplay:true,
+    scrollwheel: false,
     onItemSwitch:callslide,
     // loop:true,
     // // style: 'carousel',
@@ -77,6 +78,24 @@ $('.sector_sliderSlideBox').owlCarousel({
       }
   }
 });
+$('.employee_slider').owlCarousel({
+  loop:true,
+  margin:30,
+  nav:false,
+  autoplay:true,
+  dots:true,
+  responsive:{
+      0:{
+          items:2
+      },
+      600:{
+          items:3
+      },
+      1000:{
+          items:3
+      }
+  }
+});
   $('.overviewHero_slider').owlCarousel({
     loop:false,
     nav:false,
@@ -94,8 +113,9 @@ $(document).scroll(function () {
   fixedNavbarHandle();
   checkViewport();
 });
-function callslide(event){
-  console.log(event,'hii');
+let slideText = 1;
+function callslide(){
+  console.log('hi');
   
 }
 
